@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SafariExtensionViewController" customModule="uBlock_Origin_Extension" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="c22-O7-iKe" id="vwT-Xx-Aiz"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="328" height="289"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Iy-aV-wGF">
+                    <rect key="frame" x="6" y="264" width="316" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="uBlock Origin 1.20.2" id="2Ec-kd-q2K">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button translatesAutoresizingMaskIntoConstraints="NO" id="U4p-dv-9Au">
+                    <rect key="frame" x="100" y="128" width="128" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="128" id="BKe-p2-X3A"/>
+                        <constraint firstAttribute="width" secondItem="U4p-dv-9Au" secondAttribute="height" multiplier="1:1" id="D33-CW-CtP"/>
+                        <constraint firstAttribute="height" constant="128" id="UyT-Mc-IX2"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="power-button-off" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="nhm-Sg-A4v">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="powerButton:" target="-2" id="wyM-7p-U5x"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bZd-i7-cKl">
+                    <rect key="frame" x="14" y="1" width="300" height="32"/>
+                    <buttonCell key="cell" type="push" title="Settings" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CpH-t5-tzQ">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="settings:" target="-2" id="tRS-80-a49"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="4Iy-aV-wGF" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="0NB-2X-Qpc"/>
+                <constraint firstAttribute="bottom" secondItem="bZd-i7-cKl" secondAttribute="bottom" constant="8" id="3n4-MT-Ce2"/>
+                <constraint firstAttribute="trailing" secondItem="bZd-i7-cKl" secondAttribute="trailing" constant="20" symbolic="YES" id="aG9-hN-TyS"/>
+                <constraint firstAttribute="trailing" secondItem="4Iy-aV-wGF" secondAttribute="trailing" constant="8" id="eAd-tA-Of0"/>
+                <constraint firstItem="4Iy-aV-wGF" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="8" id="meQ-ww-s0E"/>
+                <constraint firstItem="bZd-i7-cKl" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" symbolic="YES" id="nRe-zD-rDt"/>
+                <constraint firstItem="U4p-dv-9Au" firstAttribute="firstBaseline" secondItem="4Iy-aV-wGF" secondAttribute="baseline" constant="60" id="pwR-CO-62N"/>
+                <constraint firstItem="U4p-dv-9Au" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="100" id="vgm-O7-tEU"/>
+                <constraint firstAttribute="trailing" secondItem="U4p-dv-9Au" secondAttribute="trailing" constant="100" id="wvj-N6-H5h"/>
+            </constraints>
+            <point key="canvasLocation" x="138" y="239.5"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="power-button-off" width="51.200000762939453" height="51.200000762939453"/>
+    </resources>
+</document>
