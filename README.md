@@ -12,6 +12,9 @@
 </sub>
 uBlock Origin
 </h1>
+<h3>
+This is a pre-Alpha project to port uBlock Origin to Safari App Extensions(Safari 13+ support)
+</h3>
 <p align="center">
 <sup> <!-- Pronounciation -->
       pronounced <i>you-block origin</i> (<code>/ˈjuːˌblɒk/</code>) — <i>you</i> decide what enters your browser.
