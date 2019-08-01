@@ -9,10 +9,12 @@
     },
     {
         "action": {
-            "type": "block"
+            "type": "css-display-none",
+            "selector": "a[href*='reddit']"
         },
         "trigger": {
-            "url-filter": "webkit.org"
+            "url-filter": "https?://(www.)?google.*"
         }
-    }
+    },
+    
 ]

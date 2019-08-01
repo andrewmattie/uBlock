@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19151FAA22F2523E00A4388D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
+		19151FAD22F2523E00A4388D /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19151FAC22F2523E00A4388D /* blockerList.json */; };
+		19151FAF22F2523E00A4388D /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19151FAE22F2523E00A4388D /* ContentBlockerRequestHandler.swift */; };
+		19151FB422F2523E00A4388D /* uBlock filters.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19151FA922F2523E00A4388D /* uBlock filters.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		19151FBD22F2577B00A4388D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
+		19151FC022F2577B00A4388D /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19151FBF22F2577B00A4388D /* blockerList.json */; };
+		19151FC222F2577B00A4388D /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19151FC122F2577B00A4388D /* ContentBlockerRequestHandler.swift */; };
+		19151FC722F2577B00A4388D /* uBlock - Privacy.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19151FBC22F2577B00A4388D /* uBlock - Privacy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1941A4B622E9551300AF66B7 /* uBlock_Origin.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4B522E9551300AF66B7 /* uBlock_Origin.entitlements */; };
 		1941A4B822E9551300AF66B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1941A4B722E9551300AF66B7 /* AppDelegate.swift */; };
 		1941A4BB22E9551300AF66B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4B922E9551300AF66B7 /* Main.storyboard */; };
@@ -19,10 +27,6 @@
 		1941A4D322E9551400AF66B7 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4D122E9551400AF66B7 /* SafariExtensionViewController.xib */; };
 		1941A4D622E9551400AF66B7 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4D522E9551400AF66B7 /* script.js */; };
 		1941A4D822E9551400AF66B7 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4D722E9551400AF66B7 /* ToolbarItemIcon.pdf */; };
-		1941A4E822E955A900AF66B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
-		1941A4EB22E955A900AF66B7 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4EA22E955A900AF66B7 /* blockerList.json */; };
-		1941A4ED22E955A900AF66B7 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1941A4EC22E955A900AF66B7 /* ContentBlockerRequestHandler.swift */; };
-		1941A4F222E955A900AF66B7 /* UO Content Blocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1941A4E722E955A900AF66B7 /* UO Content Blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1941A4F722E9574500AF66B7 /* power-button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4F622E9574500AF66B7 /* power-button-off.png */; };
 		1941A50422EA6C4D00AF66B7 /* safari-icon16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4FE22EA6C4D00AF66B7 /* safari-icon16@2x.png */; };
 		1941A50522EA6C4D00AF66B7 /* safari-icon16-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4FF22EA6C4D00AF66B7 /* safari-icon16-off.png */; };
@@ -33,19 +37,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		19151FB222F2523E00A4388D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19151FA822F2523E00A4388D;
+			remoteInfo = "uBlock filters";
+		};
+		19151FC522F2577B00A4388D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19151FBB22F2577B00A4388D;
+			remoteInfo = "uBlock - Privacy";
+		};
 		1941A4C722E9551400AF66B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1941A4C422E9551400AF66B7;
 			remoteInfo = "uBlock Origin Extension";
-		};
-		1941A4F022E955A900AF66B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1941A4E622E955A900AF66B7;
-			remoteInfo = "UO Content Blocker";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,8 +67,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				19151FC722F2577B00A4388D /* uBlock - Privacy.appex in Embed App Extensions */,
 				1941A4C622E9551400AF66B7 /* uBlock Origin Extension.appex in Embed App Extensions */,
-				1941A4F222E955A900AF66B7 /* UO Content Blocker.appex in Embed App Extensions */,
+				19151FB422F2523E00A4388D /* uBlock filters.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +77,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		19151FA922F2523E00A4388D /* uBlock filters.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "uBlock filters.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19151FAC22F2523E00A4388D /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		19151FAE22F2523E00A4388D /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		19151FB022F2523E00A4388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19151FB122F2523E00A4388D /* uBlock_filters.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uBlock_filters.entitlements; sourceTree = "<group>"; };
+		19151FBC22F2577B00A4388D /* uBlock - Privacy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "uBlock - Privacy.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19151FBF22F2577B00A4388D /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		19151FC122F2577B00A4388D /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		19151FC322F2577B00A4388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19151FC422F2577B00A4388D /* uBlock___Privacy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "uBlock___Privacy.entitlements"; sourceTree = "<group>"; };
 		1941A4B222E9551300AF66B7 /* uBlock Origin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uBlock Origin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1941A4B522E9551300AF66B7 /* uBlock_Origin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uBlock_Origin.entitlements; sourceTree = "<group>"; };
 		1941A4B722E9551300AF66B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,11 +103,6 @@
 		1941A4D522E9551400AF66B7 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		1941A4D722E9551400AF66B7 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		1941A4D922E9551400AF66B7 /* uBlock_Origin_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uBlock_Origin_Extension.entitlements; sourceTree = "<group>"; };
-		1941A4E722E955A900AF66B7 /* UO Content Blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UO Content Blocker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1941A4EA22E955A900AF66B7 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
-		1941A4EC22E955A900AF66B7 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
-		1941A4EE22E955A900AF66B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1941A4EF22E955A900AF66B7 /* UO_Content_Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UO_Content_Blocker.entitlements; sourceTree = "<group>"; };
 		1941A4F622E9574500AF66B7 /* power-button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "power-button-off.png"; sourceTree = "<group>"; };
 		1941A4FE22EA6C4D00AF66B7 /* safari-icon16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "safari-icon16@2x.png"; sourceTree = "<group>"; };
 		1941A4FF22EA6C4D00AF66B7 /* safari-icon16-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "safari-icon16-off.png"; sourceTree = "<group>"; };
@@ -96,6 +113,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		19151FA622F2523E00A4388D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19151FAA22F2523E00A4388D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19151FB922F2577B00A4388D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19151FBD22F2577B00A4388D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1941A4AF22E9551300AF66B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,23 +144,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1941A4E422E955A900AF66B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1941A4E822E955A900AF66B7 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19151FAB22F2523E00A4388D /* uBlock filters */ = {
+			isa = PBXGroup;
+			children = (
+				19151FAC22F2523E00A4388D /* blockerList.json */,
+				19151FAE22F2523E00A4388D /* ContentBlockerRequestHandler.swift */,
+				19151FB022F2523E00A4388D /* Info.plist */,
+				19151FB122F2523E00A4388D /* uBlock_filters.entitlements */,
+			);
+			path = "uBlock filters";
+			sourceTree = "<group>";
+		};
+		19151FBE22F2577B00A4388D /* uBlock - Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				19151FBF22F2577B00A4388D /* blockerList.json */,
+				19151FC122F2577B00A4388D /* ContentBlockerRequestHandler.swift */,
+				19151FC322F2577B00A4388D /* Info.plist */,
+				19151FC422F2577B00A4388D /* uBlock___Privacy.entitlements */,
+			);
+			path = "uBlock - Privacy";
+			sourceTree = "<group>";
+		};
 		1941A4A922E9551300AF66B7 = {
 			isa = PBXGroup;
 			children = (
 				1941A4B422E9551300AF66B7 /* uBlock Origin */,
 				1941A4CC22E9551400AF66B7 /* uBlock Origin Extension */,
-				1941A4E922E955A900AF66B7 /* UO Content Blocker */,
+				19151FAB22F2523E00A4388D /* uBlock filters */,
+				19151FBE22F2577B00A4388D /* uBlock - Privacy */,
 				1941A4C922E9551400AF66B7 /* Frameworks */,
 				1941A4B322E9551300AF66B7 /* Products */,
 			);
@@ -138,7 +186,8 @@
 			children = (
 				1941A4B222E9551300AF66B7 /* uBlock Origin.app */,
 				1941A4C522E9551400AF66B7 /* uBlock Origin Extension.appex */,
-				1941A4E722E955A900AF66B7 /* UO Content Blocker.appex */,
+				19151FA922F2523E00A4388D /* uBlock filters.appex */,
+				19151FBC22F2577B00A4388D /* uBlock - Privacy.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,20 +234,43 @@
 			path = "uBlock Origin Extension";
 			sourceTree = "<group>";
 		};
-		1941A4E922E955A900AF66B7 /* UO Content Blocker */ = {
-			isa = PBXGroup;
-			children = (
-				1941A4EA22E955A900AF66B7 /* blockerList.json */,
-				1941A4EC22E955A900AF66B7 /* ContentBlockerRequestHandler.swift */,
-				1941A4EE22E955A900AF66B7 /* Info.plist */,
-				1941A4EF22E955A900AF66B7 /* UO_Content_Blocker.entitlements */,
-			);
-			path = "UO Content Blocker";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		19151FA822F2523E00A4388D /* uBlock filters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19151FB522F2523E00A4388D /* Build configuration list for PBXNativeTarget "uBlock filters" */;
+			buildPhases = (
+				19151FA522F2523E00A4388D /* Sources */,
+				19151FA622F2523E00A4388D /* Frameworks */,
+				19151FA722F2523E00A4388D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uBlock filters";
+			productName = "uBlock filters";
+			productReference = 19151FA922F2523E00A4388D /* uBlock filters.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		19151FBB22F2577B00A4388D /* uBlock - Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19151FCA22F2577B00A4388D /* Build configuration list for PBXNativeTarget "uBlock - Privacy" */;
+			buildPhases = (
+				19151FB822F2577B00A4388D /* Sources */,
+				19151FB922F2577B00A4388D /* Frameworks */,
+				19151FBA22F2577B00A4388D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uBlock - Privacy";
+			productName = "uBlock - Privacy";
+			productReference = 19151FBC22F2577B00A4388D /* uBlock - Privacy.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		1941A4B122E9551300AF66B7 /* uBlock Origin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1941A4E022E9551400AF66B7 /* Build configuration list for PBXNativeTarget "uBlock Origin" */;
@@ -212,7 +284,8 @@
 			);
 			dependencies = (
 				1941A4C822E9551400AF66B7 /* PBXTargetDependency */,
-				1941A4F122E955A900AF66B7 /* PBXTargetDependency */,
+				19151FB322F2523E00A4388D /* PBXTargetDependency */,
+				19151FC622F2577B00A4388D /* PBXTargetDependency */,
 			);
 			name = "uBlock Origin";
 			productName = "uBlock Origin";
@@ -236,40 +309,26 @@
 			productReference = 1941A4C522E9551400AF66B7 /* uBlock Origin Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		1941A4E622E955A900AF66B7 /* UO Content Blocker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1941A4F322E955A900AF66B7 /* Build configuration list for PBXNativeTarget "UO Content Blocker" */;
-			buildPhases = (
-				1941A4E322E955A900AF66B7 /* Sources */,
-				1941A4E422E955A900AF66B7 /* Frameworks */,
-				1941A4E522E955A900AF66B7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "UO Content Blocker";
-			productName = "UO Content Blocker";
-			productReference = 1941A4E722E955A900AF66B7 /* UO Content Blocker.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		1941A4AA22E9551300AF66B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Mattie Apps";
 				TargetAttributes = {
+					19151FA822F2523E00A4388D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					19151FBB22F2577B00A4388D = {
+						CreatedOnToolsVersion = 10.3;
+					};
 					1941A4B122E9551300AF66B7 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					1941A4C422E9551400AF66B7 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-					1941A4E622E955A900AF66B7 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -289,12 +348,29 @@
 			targets = (
 				1941A4B122E9551300AF66B7 /* uBlock Origin */,
 				1941A4C422E9551400AF66B7 /* uBlock Origin Extension */,
-				1941A4E622E955A900AF66B7 /* UO Content Blocker */,
+				19151FA822F2523E00A4388D /* uBlock filters */,
+				19151FBB22F2577B00A4388D /* uBlock - Privacy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		19151FA722F2523E00A4388D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19151FAD22F2523E00A4388D /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19151FBA22F2577B00A4388D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19151FC022F2577B00A4388D /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1941A4B022E9551300AF66B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,17 +398,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1941A4E522E955A900AF66B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1941A4EB22E955A900AF66B7 /* blockerList.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		19151FA522F2523E00A4388D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19151FAF22F2523E00A4388D /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19151FB822F2577B00A4388D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19151FC222F2577B00A4388D /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1941A4AE22E9551300AF66B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,26 +435,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1941A4E322E955A900AF66B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1941A4ED22E955A900AF66B7 /* ContentBlockerRequestHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		19151FB322F2523E00A4388D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19151FA822F2523E00A4388D /* uBlock filters */;
+			targetProxy = 19151FB222F2523E00A4388D /* PBXContainerItemProxy */;
+		};
+		19151FC622F2577B00A4388D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19151FBB22F2577B00A4388D /* uBlock - Privacy */;
+			targetProxy = 19151FC522F2577B00A4388D /* PBXContainerItemProxy */;
+		};
 		1941A4C822E9551400AF66B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1941A4C422E9551400AF66B7 /* uBlock Origin Extension */;
 			targetProxy = 1941A4C722E9551400AF66B7 /* PBXContainerItemProxy */;
-		};
-		1941A4F122E955A900AF66B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1941A4E622E955A900AF66B7 /* UO Content Blocker */;
-			targetProxy = 1941A4F022E955A900AF66B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -394,6 +475,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		19151FB622F2523E00A4388D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock filters/uBlock_filters.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock filters/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock-filters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19151FB722F2523E00A4388D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock filters/uBlock_filters.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock filters/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock-filters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		19151FC822F2577B00A4388D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - Privacy/uBlock___Privacy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - Privacy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---Privacy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19151FC922F2577B00A4388D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - Privacy/uBlock___Privacy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - Privacy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---Privacy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		1941A4DA22E9551400AF66B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -587,47 +744,27 @@
 			};
 			name = Release;
 		};
-		1941A4F422E955A900AF66B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "UO Content Blocker/UO_Content_Blocker.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FE7T2KK6SX;
-				INFOPLIST_FILE = "UO Content Blocker/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.UO-Content-Blocker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		1941A4F522E955A900AF66B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "UO Content Blocker/UO_Content_Blocker.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FE7T2KK6SX;
-				INFOPLIST_FILE = "UO Content Blocker/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.UO-Content-Blocker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19151FB522F2523E00A4388D /* Build configuration list for PBXNativeTarget "uBlock filters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19151FB622F2523E00A4388D /* Debug */,
+				19151FB722F2523E00A4388D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19151FCA22F2577B00A4388D /* Build configuration list for PBXNativeTarget "uBlock - Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19151FC822F2577B00A4388D /* Debug */,
+				19151FC922F2577B00A4388D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1941A4AD22E9551300AF66B7 /* Build configuration list for PBXProject "uBlock Origin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -651,15 +788,6 @@
 			buildConfigurations = (
 				1941A4E122E9551400AF66B7 /* Debug */,
 				1941A4E222E9551400AF66B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1941A4F322E955A900AF66B7 /* Build configuration list for PBXNativeTarget "UO Content Blocker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1941A4F422E955A900AF66B7 /* Debug */,
-				1941A4F522E955A900AF66B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

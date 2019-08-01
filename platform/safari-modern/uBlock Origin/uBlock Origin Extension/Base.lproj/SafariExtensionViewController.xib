@@ -7,6 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="SafariExtensionViewController" customModule="uBlock_Origin_Extension" customModuleProvider="target">
             <connections>
+                <outlet property="powerButton" destination="U4p-dv-9Au" id="2W1-Vk-fzv"/>
                 <outlet property="view" destination="c22-O7-iKe" id="vwT-Xx-Aiz"/>
             </connections>
         </customObject>
@@ -36,7 +37,7 @@
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <action selector="powerButton:" target="-2" id="wyM-7p-U5x"/>
+                        <action selector="powerOnOff:" target="-2" id="hiA-yR-i74"/>
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bZd-i7-cKl">

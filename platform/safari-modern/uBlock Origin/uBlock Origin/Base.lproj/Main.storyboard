@@ -115,32 +115,32 @@
                                     </tabViewItem>
                                     <tabViewItem label="FIlter lists" identifier="settings" id="Cto-dy-HFH">
                                         <view key="view" id="fWm-VK-Tuo">
-                                            <rect key="frame" x="10" y="33" width="544" height="362"/>
+                                            <rect key="frame" x="10" y="33" width="744" height="462"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WtU-t1-y0N">
-                                                    <rect key="frame" x="2" y="326" width="113" height="32"/>
+                                                    <rect key="frame" x="2" y="426" width="113" height="32"/>
                                                     <buttonCell key="cell" type="push" title="Update now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9L2-9Q-YMv">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
                                                     </buttonCell>
                                                 </button>
                                                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mFE-4Z-GpN">
-                                                    <rect key="frame" x="115" y="326" width="140" height="32"/>
+                                                    <rect key="frame" x="115" y="426" width="140" height="32"/>
                                                     <buttonCell key="cell" type="push" title="Purge all caches" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SYK-XV-ISR">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
                                                     </buttonCell>
                                                 </button>
                                                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0FT-0b-k0U">
-                                                    <rect key="frame" x="6" y="309" width="158" height="18"/>
+                                                    <rect key="frame" x="6" y="409" width="158" height="18"/>
                                                     <buttonCell key="cell" type="check" title="Auto-update filter lists" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Cdb-BO-DOC">
                                                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                         <font key="font" metaFont="system"/>
                                                     </buttonCell>
                                                 </button>
                                                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qh9-ge-vkb">
-                                                    <rect key="frame" x="6" y="289" width="229" height="18"/>
+                                                    <rect key="frame" x="6" y="389" width="229" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                     <buttonCell key="cell" type="check" title="Parse and enforce cosmetic filters" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="gri-ac-iCM">
                                                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -148,7 +148,7 @@
                                                     </buttonCell>
                                                 </button>
                                                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="enD-IT-IvJ">
-                                                    <rect key="frame" x="6" y="269" width="206" height="18"/>
+                                                    <rect key="frame" x="6" y="369" width="206" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                     <buttonCell key="cell" type="check" title="Ignore generic cosmetic filters" bezelStyle="regularSquare" imagePosition="left" inset="2" id="2Td-O9-h3O">
                                                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>

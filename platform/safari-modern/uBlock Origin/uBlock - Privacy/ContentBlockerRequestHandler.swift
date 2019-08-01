@@ -1,8 +1,8 @@
 //
 //  ContentBlockerRequestHandler.swift
-//  UO Content Blocker
+//  uBlock - Privacy
 //
-//  Created by Andrew Mattie on 7/24/19.
+//  Created by Andrew Mattie on 7/31/19.
 //  Copyright © 2019 Mattie Apps. All rights reserved.
 //
 

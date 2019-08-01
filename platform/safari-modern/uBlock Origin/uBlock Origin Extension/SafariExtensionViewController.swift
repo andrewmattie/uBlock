@@ -10,13 +10,15 @@ import SafariServices
 
 class SafariExtensionViewController: SFSafariExtensionViewController {
     
+    @IBOutlet weak var powerButton: NSButton!
+    
     static let shared: SafariExtensionViewController = {
         let shared = SafariExtensionViewController()
         shared.preferredContentSize = NSSize(width:320, height:240)
         return shared
     }()
 
-    @IBAction func powerButton(_ sender: NSButton) {
+    @IBAction func powerOnOff(_ sender: NSButton) {
         print("Powering on/off")
     }
     

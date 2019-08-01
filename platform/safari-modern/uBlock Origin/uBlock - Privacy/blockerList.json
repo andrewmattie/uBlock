@@ -1,0 +1,60 @@
+[
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "webkit.svg"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "https?://(www.)?taboola.com",
+            "unless-top-url": "https?://(www.)?taboola.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "https?://silkenthreadiness.info"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "https?://(www.)?adblockanalytics.com",
+            "unless-top-url": "https?://(www.)?adblockanalytics.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "https?://(www.)?lnkr.us"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "https?://(www.)?metrext.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "https?://(www.)?icontent.us"
+        }
+    }
+]
