@@ -12,9 +12,10 @@
 		19151FAF22F2523E00A4388D /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19151FAE22F2523E00A4388D /* ContentBlockerRequestHandler.swift */; };
 		19151FB422F2523E00A4388D /* uBlock filters.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19151FA922F2523E00A4388D /* uBlock filters.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		19151FBD22F2577B00A4388D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
-		19151FC022F2577B00A4388D /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19151FBF22F2577B00A4388D /* blockerList.json */; };
+		19151FC022F2577B00A4388D /* blockerOrg.json in Resources */ = {isa = PBXBuildFile; fileRef = 19151FBF22F2577B00A4388D /* blockerOrg.json */; };
 		19151FC222F2577B00A4388D /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19151FC122F2577B00A4388D /* ContentBlockerRequestHandler.swift */; };
 		19151FC722F2577B00A4388D /* uBlock - Privacy.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19151FBC22F2577B00A4388D /* uBlock - Privacy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		19151FDF22F2934800A4388D /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19151FDE22F2934800A4388D /* blockerList.json */; };
 		1941A4B622E9551300AF66B7 /* uBlock_Origin.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4B522E9551300AF66B7 /* uBlock_Origin.entitlements */; };
 		1941A4B822E9551300AF66B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1941A4B722E9551300AF66B7 /* AppDelegate.swift */; };
 		1941A4BB22E9551300AF66B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1941A4B922E9551300AF66B7 /* Main.storyboard */; };
@@ -83,10 +84,11 @@
 		19151FB022F2523E00A4388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19151FB122F2523E00A4388D /* uBlock_filters.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uBlock_filters.entitlements; sourceTree = "<group>"; };
 		19151FBC22F2577B00A4388D /* uBlock - Privacy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "uBlock - Privacy.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19151FBF22F2577B00A4388D /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		19151FBF22F2577B00A4388D /* blockerOrg.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerOrg.json; sourceTree = "<group>"; };
 		19151FC122F2577B00A4388D /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		19151FC322F2577B00A4388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19151FC422F2577B00A4388D /* uBlock___Privacy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "uBlock___Privacy.entitlements"; sourceTree = "<group>"; };
+		19151FDE22F2934800A4388D /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
 		1941A4B222E9551300AF66B7 /* uBlock Origin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uBlock Origin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1941A4B522E9551300AF66B7 /* uBlock_Origin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uBlock_Origin.entitlements; sourceTree = "<group>"; };
 		1941A4B722E9551300AF66B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -161,7 +163,8 @@
 		19151FBE22F2577B00A4388D /* uBlock - Privacy */ = {
 			isa = PBXGroup;
 			children = (
-				19151FBF22F2577B00A4388D /* blockerList.json */,
+				19151FBF22F2577B00A4388D /* blockerOrg.json */,
+				19151FDE22F2934800A4388D /* blockerList.json */,
 				19151FC122F2577B00A4388D /* ContentBlockerRequestHandler.swift */,
 				19151FC322F2577B00A4388D /* Info.plist */,
 				19151FC422F2577B00A4388D /* uBlock___Privacy.entitlements */,
@@ -367,7 +370,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19151FC022F2577B00A4388D /* blockerList.json in Resources */,
+				19151FC022F2577B00A4388D /* blockerOrg.json in Resources */,
+				19151FDF22F2934800A4388D /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
