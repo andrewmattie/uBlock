@@ -56,12 +56,6 @@ Safari Content Blockers have a filter limit of 50,000. To get around this limita
 
 To generate a filter list compatable with Safari you can use [abp2blocklist](https://github.com/andrewmattie/abp2blocklist) to take any AdBlock Plus complatible filter list and make it work with Safari Content Blockers.
 
-##
- Basic mode | Advanced-user mode
-:----------:|:------------------:
-[Popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface) | [A point-and-click firewall which can be configured on a per-site basis](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide) 
-<a href="https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface"><img src="https://user-images.githubusercontent.com/585534/38453883-09446c74-3a2b-11e8-9440-dbeb319b0f28.png" /></a><br><sup>.<br>.</sup> | <a href="https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide"><img src="https://user-images.githubusercontent.com/585534/38453884-0bb2ac8c-3a2b-11e8-942a-16071cc8f855.png" /></a><br><sup>Configure as you wish:<br>picture shows 3rd-party scripts and frames blocked by default everywhere</sup>
-
 Visit the [uBlock Origin's wiki](https://github.com/gorhill/uBlock/wiki) for documentation.
 
 For support/questions/help, there is [/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) on Reddit.
