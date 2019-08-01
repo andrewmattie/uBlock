@@ -52,7 +52,11 @@ uBlock Origin is **NOT** an "ad blocker": [it is a wide-spectrum blocker](https:
 * [Wiki](https://github.com/gorhill/uBlock/wiki)
 
 ## Documentation
+Safari Content Blockers have a filter limit of 50,000. To get around this limitation uBlock Origin uses a seperate content blocker for each filter list. Some filter lists, such as EasyList, will need to be split into multiple lists to fit within Apple's contraints.
 
+To generate a filter list compatable with Safari you can use [abp2blocklist](https://github.com/andrewmattie/abp2blocklist) to take any AdBlock Plus complatible filter list and make it work with Safari Content Blockers.
+
+##
  Basic mode | Advanced-user mode
 :----------:|:------------------:
 [Popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface) | [A point-and-click firewall which can be configured on a per-site basis](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide) 
