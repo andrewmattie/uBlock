@@ -1,0 +1,6398 @@
+[
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?kinopoisk\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id=image]:style(opacity: 1 !important;)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?pythonjobshq\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, Keen)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?orange\\.fr[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id=o_carrepub]:style(height: 1px; margin: 0; min-height: auto; visibility: hidden; width: 1px;)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?publicdomainq\\.net[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "ins.adsbygoogle"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?br\\.de[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(set-constant.js, akamaiDisableServerIpLookup, noopFunc)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?oxforddictionaries\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".banbox-mini"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?cyclingnews\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, MONETIZER101.init), +js(nano-setTimeout-booster.js, /outboundLink/), .global-banner"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?wnd\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id^=div-gpt-ad-]"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?britannica\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id=md-media-overlay-ad]"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?sounddrain\\.net[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".coinhive-captcha:style(max-width: none !important;)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?warszawawpigulce\\.pl[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".eklama"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?tubewolf\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".bnnrs-player, .bnnr"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?pasteboard\\.co[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(set-constant.js, nads, trueFunc), +js(set-constant.js, nads.createAd, trueFunc)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?seedpeer\\.me[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".section.page-content > .container > div > div:has-text(/recommended/i)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?seedpeer\\.unblocked\\.app[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".section.page-content > .container > div > div:has-text(/recommended/i)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?seedpeer\\.unblocked\\.pet[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".title:has-text(/recommended/i):xpath(..)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?kizi\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(set-constant.js, adblock_active, false)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?drstevenlin\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "html:style(overflow: auto !important;)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?tele5\\.de[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".break-ads"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?detroitnews\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id=partner-poster-0]"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?46\\.166\\.167\\.16[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "a[href^=\"/yum.php\"]"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?semprot\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "a[href^=\"/yum.php\"]"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?carbuzz\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".cb-comments__create-form:style(margin-top: 30px !important;), .cb-post-block-images-swiper .cb-post-block__comments .collapseable-comments__collapse:style(margin-bottom: 0px !important;), .cb-post-block-images-swiper .cb-post-block__comments:style(margin-bottom: 0 !important; top: -97px !important;), .cb-post-block-images-swiper .collapseable-comments__collapseable:style(margin-bottom: -80px !important;), .cb-post-block__comments:style(padding-bottom: 0 !important;)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?bestescapegames\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".add_div3, .add_divbig"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?statcounter\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?statcounter\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?mopub\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?mopub\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?outbrain\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?outbrain\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?mixpanel\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?mixpanel\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?top\\.mail\\.ru([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?top\\.mail\\.ru([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?clickbank\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?clickbank\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?carbonads\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?carbonads\\.net([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?quantcast\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?quantcast\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?taboola\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?taboola\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?api\\.taboola\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?api\\.taboola\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?emarketer\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?emarketer\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?conversantmedia\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?conversantmedia\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?sumo\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-domain": [
+                "*beewits.com",
+                "*dante-ri.hr"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*[-/]google-analytics\\.",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/googleanalytics\\.js",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*-google-analytics/",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*/google-analytics\\.",
+            "resource-type": [
+                "script"
+            ],
+            "load-type": [
+                "third-party"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/ga_setup\\.js",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?minute\\.ly([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*time.com"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/adsign\\.",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "unless-domain": [
+                "*adsign.no",
+                "*adsign.slack.com"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/ads6\\.",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "unless-domain": [
+                "*ads6.adesignstudio.eu"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/adstream\\.",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "unless-domain": [
+                "*adstream.com",
+                "*adstream.com.ro"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/netstat\\.",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "unless-domain": [
+                "*netstat.cloud"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?o0bc\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-domain": [
+                "*boston.com"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?smartlook\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?smartlook\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?fullstory\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?fullstory\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?fullstory\\.com/s/fs\\.js",
+            "resource-type": [
+                "script"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^wss?://.*/proxy$",
+            "resource-type": [
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "if-domain": [
+                "*github.io",
+                "*rawgit.com",
+                "*streamplay.to",
+                "*tubetitties.com",
+                "*vidfile.net"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*/proxy$",
+            "resource-type": [
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "if-domain": [
+                "*github.io",
+                "*rawgit.com",
+                "*streamplay.to",
+                "*tubetitties.com",
+                "*vidfile.net"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^wss?://.*\\.wa?sm$",
+            "resource-type": [
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "if-domain": [
+                "*github.io",
+                "*rawgit.com",
+                "*streamplay.to",
+                "*tubetitties.com",
+                "*vidfile.net"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*\\.wa?sm$",
+            "resource-type": [
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "if-domain": [
+                "*github.io",
+                "*rawgit.com",
+                "*streamplay.to",
+                "*tubetitties.com",
+                "*vidfile.net"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^wss?://.*\\.wa$",
+            "resource-type": [
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "if-domain": [
+                "*github.io",
+                "*rawgit.com",
+                "*streamplay.to",
+                "*tubetitties.com",
+                "*vidfile.net"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*\\.wa$",
+            "resource-type": [
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "if-domain": [
+                "*github.io",
+                "*rawgit.com",
+                "*streamplay.to",
+                "*tubetitties.com",
+                "*vidfile.net"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?x\\.kinja-static\\.com/assets/packaged-js/onionam\\.",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*avclub.com",
+                "*clickhole.com",
+                "*deadspin.com",
+                "*earther.com",
+                "*gizmodo.com",
+                "*jalopnik.com",
+                "*jezebel.com",
+                "*kotaku.com",
+                "*lifehacker.com",
+                "*splinternews.com",
+                "*theinventory.com",
+                "*theonion.com",
+                "*theroot.com",
+                "*thetakeout.com"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?v\\.embed-cdn\\.com/v8/player\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*streamable.com"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/log_event\\?",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "unless-domain": [
+                "*youtube.com"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/analytics/analytics\\.",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "load-type": [
+                "third-party"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?optimizely\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?optimizely\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?bridgetrack\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "third-party"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?bridgetrack\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?d2cmedia\\.ca([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?d2cmedia\\.ca([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/adsession\\.",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "unless-domain": [
+                "*adsession.com"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/adlead\\.",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ],
+            "unless-domain": [
+                "*adlead.com",
+                "*adlead.immo"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*://ads\\.",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-domain": [
+                "*ads.ac.uk",
+                "*ads.adstream.com.ro",
+                "*ads.am",
+                "*ads.bigbom.com",
+                "*ads.brave.com",
+                "*ads.colombiaonline.com",
+                "*ads.comeon.com",
+                "*ads.dev.int.revelian.com",
+                "*ads.elcarado.com",
+                "*ads.google.com",
+                "*ads.harvard.edu",
+                "*ads.lapalingo.com",
+                "*ads.lordlucky.com",
+                "*ads.mobilebet.com",
+                "*ads.msstate.edu",
+                "*ads.nc",
+                "*ads.nimses.com",
+                "*ads.quasaraffiliates.com",
+                "*ads.red",
+                "*ads.route.cc",
+                "*ads.safi-gmbh.ch",
+                "*ads.sk",
+                "*ads.socialtheater.com",
+                "*ads.taboola.com",
+                "*ads.toplayaffiliates.com",
+                "*ads.viksaffiliates.com",
+                "*ads.watson.ch",
+                "*ads.xtribeapp.com",
+                "*ads.yahoosmallbusiness.com",
+                "*badassembly.com",
+                "*caravansforsale.co.uk",
+                "*fusac.fr",
+                "*memo2.nl",
+                "*reempresa.org",
+                "*seriouswheels.com"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^downloadsource\\..*##\\.date:not\\(dt\\):style\\(display:block!important;\\)",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*downloadsource\\..*##\\.date:not\\(dt\\):style\\(display:block!important;\\)",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?curalate\\.com/api/v1/metrics/",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?curalate\\.com/api/v1/metrics/"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*://adv\\.",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-domain": [
+                "*adv.bet",
+                "*adv.cincsys.com",
+                "*adv.co.it",
+                "*adv.cr",
+                "*adv.cryptonetlabs.it",
+                "*adv.derfunke.at",
+                "*adv.ee",
+                "*adv.gg",
+                "*adv.michaelgat.com",
+                "*adv.msk.ru",
+                "*adv.ru",
+                "*adv.vg",
+                "*adv.works",
+                "*adv.yomiuri.co.jp",
+                "*advids.co",
+                "*erti.se",
+                "*escreverdireito.com",
+                "*farapp.com",
+                "*forex-tv-online.com",
+                "*r7.com",
+                "*typeform.com",
+                "*welaika.com"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/google-analytics-",
+            "resource-type": [
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*webike\\..*#@#\\.ad_box",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*webike\\..*#@#\\.ad_title",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?google-analytics\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*avianca.com",
+                "*jackbox.tv",
+                "*newegg.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?google-analytics\\.com/analytics\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*burodecredito.com.mx",
+                "*vd.nl",
+                "*cpap.com",
+                "*mediamarkt.de",
+                "*saturn.de",
+                "*flipagram.com",
+                "*developers.google.com",
+                "*panerabread.com",
+                "*experience.amd.com",
+                "*theatlantic.com",
+                "*linetv.tw",
+                "*beinsports.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?google-analytics\\.com/plugins/",
+            "resource-type": [
+                "script"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?www\\.google-analytics\\.com/ga\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*santander.com.mx",
+                "*tv2.no"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?google-analytics\\.com/urchin\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*live.euroleague.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?global\\.fncstatic\\.com/",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*video.foxnews.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?imasdk\\.googleapis\\.com/js/sdkloader/ima3\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*insider.foxnews.com",
+                "*juegosflash.dibujos.net",
+                "*netd.com",
+                "*trilulilu.ro",
+                "*deluxemusic.tv",
+                "*tetrisfriends.com",
+                "*sbs.com.au",
+                "*iheartradio.ca",
+                "*umterps.com",
+                "*mlb.com",
+                "*tubitv.com",
+                "*kimcartoon.ac",
+                "*wwm.rtl.de",
+                "*classicreload.com",
+                "*chicagotribune.com",
+                "*mcall.com",
+                "*goducks.com",
+                "*player.radio.com",
+                "*ebonus.gg",
+                "*si.com",
+                "*nhl.com",
+                "*live.antena3.ro",
+                "*player.sdpg.tv"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?s0\\.2mdn\\.net/instream/",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*cnet.com",
+                "*nfl.com",
+                "*wistv.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?s0\\.2mdn\\.net/instream/flash/v3/adsapi_3\\.swf",
+            "resource-type": [
+                "media"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?cdn\\.vurb\\.com/.*/mixpanel\\.",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?target\\.122\\.2o7\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*target.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?adm\\.fwmrm\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*go.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?safelinking\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "first-party"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?flurry\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "first-party"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?s0\\.2mdn\\.net/instream/",
+            "resource-type": [
+                "script",
+                "media"
+            ],
+            "if-domain": [
+                "*wsmv.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/google-analytics-dashboard",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?yui\\.yahooapis\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?css\\.washingtonpost\\.com/.*/ads\\.css",
+            "resource-type": [
+                "style-sheet"
+            ],
+            "load-type": [
+                "first-party"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?awaps\\.yandex\\.ru([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*market.yandex.ru"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?mc\\.yandex\\.ru([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*market.yandex.ru"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?yastatic\\.net/market-export/.*/advert\\.js",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*market.yandex.ru"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?keen\\.github\\.io/.*/keen\\.min\\.js",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "load-type": [
+                "first-party"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?cdn\\.phoenix\\.intergi\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?googleads\\.g\\.doubleclick\\.net/ads/preferences/getcookie",
+            "resource-type": [
+                "popup"
+            ],
+            "if-domain": [
+                "*myaccount.google.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?img\\.echosting\\.cafe24\\.com/design",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*jolse.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?partner\\.googleadservices\\.com/gpt/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*www.merriam-webster.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ssl\\.cdn-redfin\\.com/.*/redfin/common/analytics/PixelTracking\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*redfin.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?google-analytics\\.com/ga\\.js",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*one.co.il"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?odb\\.outbrain\\.com/crossdomain\\.xml",
+            "resource-type": [
+                "raw"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ticketmaster\\.122\\.2o7\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*ticketweb.co.uk"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.segment\\.com/analytics\\.js/.*/analytics\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*vyte.in"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?analytics\\.edgekey\\.net/html5/akamaihtml5-min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*weather.com",
+                "*skygo.sky.de"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ad\\.crwdcntrl\\.net/.*/callback=jsonp_callback",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*weather.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?data\\.cnn\\.com/jsonp/cfg/.*/videoconfig/cnn/desktop/domesticsectionconfig\\.json",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*cnn.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cnn\\.com/\\.element/apps/cvp/3\\.0/cfg/spider/cnn/expansion/ad_policy\\.xml",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*cnn.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?z\\.cdn\\.turner\\.com/analytics/cnnexpan/jsmd\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*cnn.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?boldchat\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?snoobi\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*kartta.hel.fi",
+                "*sato.fi"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?dw\\.cbsi\\.com/anonc\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*giantbomb.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?googletagmanager\\.com/gtm\\.js\\?",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*willyweather.com.au"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?naiadsystems\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "media"
+            ],
+            "if-domain": [
+                "*streamate.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static\\.adf\\.ly([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script"
+            ],
+            "if-domain": [
+                "*q.gs"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?sp\\.computershopper\\.com/xyz\\?",
+            "resource-type": [
+                "image"
+            ],
+            "load-type": [
+                "first-party"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?media2\\.intoday\\.in/aajtak/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*aajtak.intoday.in",
+                "*indiatoday.intoday.in"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ahcdn\\.com/key=",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*hdzog.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?cinestar\\.de[^-_.%a-z0-9].*/angular-google-analytics.*\\.js",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?analytics\\.edgesuite\\.net/html5/akamaihtml5-min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*skygo.sky.de"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?assets\\.adobedtm\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*skygo.sky.de",
+                "*rogers.com",
+                "*linkinghub.elsevier.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*\\.php\\?ref=",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*facebook.com",
+                "*materiel.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?d29xw9s9x32j3w\\.cloudfront\\.net/players/library/",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*seattlepi.com",
+                "*sfgate.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ensighten\\.com/hearst/news/bootstrap\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*ctpost.com",
+                "*houstonchronicle.com",
+                "*mysanantonio.com",
+                "*newstimes.com",
+                "*seattlepi.com",
+                "*sfchronicle.com",
+                "*sfgate.com",
+                "*timesunion.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?googleapis\\.com/js/sdkloader/ima3\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*seattlepi.com",
+                "*sfgate.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?spotxcdn\\.com/integration/directsdk/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*seattlepi.com",
+                "*sfgate.com",
+                "*bloomberg.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?spotx\\.tv/directsdk/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*seattlepi.com",
+                "*sfgate.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?healthline\\.com/resources/base/js/util/ga-custom-vars\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*healthline.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?googletagmanager\\.com/gtm\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*cpap.com",
+                "*mediamarkt.de",
+                "*saturn.de",
+                "*bethesda.net",
+                "*livescience.com",
+                "*space.com",
+                "*topspeed.com",
+                "*fullcontact.com",
+                "*hellofresh.com",
+                "*mirror.co.uk",
+                "*experience.amd.com",
+                "*wipliz.com",
+                "*superesportes.com.br",
+                "*theatlantic.com",
+                "*rappi.com.mx",
+                "*beinsports.com",
+                "*watch.wwe.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?bat\\.bing\\.com/bat\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*airbnb.co.uk",
+                "*airbnb.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?sat\\.sanoma\\.fi([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*xxl.fi"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?sumo(me)?\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*shopify.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": ".*",
+            "if-domain": [
+                "*data.edinburghopendata.info",
+                "*data.wetter.info"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?data\\.wetter\\.info([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "popup"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?fbcdn\\.net/.*_ad6\\.",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*messenger.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static\\.dealer\\.com/common/tracker/tracker\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*princetonbmw.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^blob:",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*dailycaller.com",
+                "*britannica.com",
+                "*hdfilme.tv",
+                "*watchvideo.us"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?tvpage\\.com/tvpa\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*bleepingcomputer.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?hdliveextra-a\\.akamaihd\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*nbcsports.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?mps\\.nbcuni\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*csnne.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?alicdn\\.com/retcode/log/log\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*alibaba.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?phncdn\\.com/www-static/js/amateur/amateur-signup\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*www.pornhub.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?players\\.brightcove\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "document"
+            ],
+            "if-domain": [
+                "*usatoday.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.ampproject\\.org/.*/amp-geo-",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*koat.com",
+                "*pilotonline.com",
+                "*richmond.com",
+                "*amp.tmz.com",
+                "*tucson.com",
+                "*amp.usatoday.com",
+                "*watchdog.org"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*/blockadblock\\.",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*blockadblock.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.optimizely\\.com/json/",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*dashboard.pantheon.io"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?lightboxcdn\\.com/static/identity\\.html",
+            "resource-type": [
+                "document"
+            ],
+            "if-domain": [
+                "*cleanplates.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?mpsnare\\.iesnare\\.com/snare\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*costco.com",
+                "*citiretailservices.citibankonline.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?realcam\\.me/emb.*\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*fbstream.io",
+                "*mlbstream.io",
+                "*nbastream.io",
+                "*nflstream.io",
+                "*nhlstream.io",
+                "*strikeout.co"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?livecamtv\\.me/emb.*\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*fbstream.io",
+                "*mlbstream.io",
+                "*nbastream.io",
+                "*nflstream.io",
+                "*nhlstream.io",
+                "*strikeout.co"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?seelive\\.me/emb.*\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*fbstream.io",
+                "*mlbstream.io",
+                "*nbastream.io",
+                "*nflstream.io",
+                "*nhlstream.io",
+                "*strikeout.co"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*/hello([^-_.%A-Za-z0-9].*)?$",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*speedtest.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*/download([^-_.%A-Za-z0-9].*)?$",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*speedtest.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*/upload([^-_.%A-Za-z0-9].*)?$",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*speedtest.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?mapbox\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*speedtest.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?citi\\.com/cards/.*/tracking\\.js",
+            "resource-type": [
+                "script"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^blob:",
+            "resource-type": [
+                "popup"
+            ],
+            "if-domain": [
+                "*citi.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?fbcdn\\.net/safe_image\\.php\\?",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*facebook.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?analytics\\.logsss\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*dresslily.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?global\\.fncstatic\\.com/static/.*/VisitorAPI\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*video.foxbusiness.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?freegeoip\\.net/json/",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*ntn24america.com",
+                "*familyallergy.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?smartclip\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*energy.de"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?stats\\.g\\.doubleclick\\.net/dc\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*ticketfly.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?adobedtm\\.com[^-_.%a-z0-9].*/satellitelib-",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*comenity.net",
+                "*fantasy.nfl.com",
+                "*mathworks.com",
+                "*costco.com",
+                "*ally.com",
+                "*virginmobile.ca",
+                "*papers.ssrn.com",
+                "*skysportaustria.at",
+                "*auspost.com.au"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?adobedtm\\.com/.*/satelliteLib-",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*kia.ca",
+                "*malaysiaairlines.com",
+                "*manage.linkt.com.au"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?dpm\\.demdex\\.net/id",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*espn.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?dev\\.visualwebsiteoptimizer\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*adoramapix.com",
+                "*cars.usnews.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?recipes\\.timesofindia\\.com/.*ads\\.cms",
+            "resource-type": [
+                "script"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?honeybadger\\.io/.*/honeybadger\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*clark.de"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?authedmine\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*4x0.me",
+                "*cashperlink.com",
+                "*ivpaste.com",
+                "*shrtme.me",
+                "*sounddrain.net",
+                "*apiroot.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?videoplaza\\.tv/.*/pulse-sdk-html5/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*rtl.be"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ads\\.adaptv\\.advertising\\.com/.*einthusan\\.tv",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*imasdk.googleapis.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?google\\.com/ads/js/peitho2/peitho2\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*testmysite.withgoogle.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?industrybrains\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*sendmyway.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?js\\.center\\.io([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*randpac.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?s3\\.animeflv\\.com/efire\\.php",
+            "resource-type": [
+                "popup"
+            ],
+            "if-domain": [
+                "*animeflv.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static\\.chartbeat\\.com/js/chartbeat_video\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*nbcwashington.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?tags\\.tiqcdn\\.com/utag/.*/utag\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*cbsnews.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?assets\\.bbystatic\\.com/analytics-dotcom/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*bestbuy.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?img\\.bbystatic\\.com/bestbuy_us/js/tracking/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*bestbuy.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?nexus\\.ensighten\\.com/.*/Bootstrap\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*bestbuy.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?d1af033869koo7\\.cloudfront\\.net/.*/247px\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*bestbuy.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?gemius\\.pl/xlgemius\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*jn.pt",
+                "*dn.pt",
+                "*tsf.pt"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?secure\\.netscope\\.marktest\\.pt/netscope-gemius\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*jn.pt",
+                "*tsf.pt"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?marktest\\.pt/netscope-gemius\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*dn.pt"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?.*/cdn-cgi/pe/bag2\\?.*optimizely\\.com",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*coindesk.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ak\\.sail-horizon\\.com/scout/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*businessinsider.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^wss?://([^/]+\\.)?tracker\\.btorrent\\.xyz([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "raw"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cloudflare\\.com/ajax/libs/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*androidcentral.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?geonames\\.org/flags/x/ad\\.gif",
+            "resource-type": [
+                "image"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?api\\.opinary\\.com/poll/",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*pressekompass.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^about:blank$",
+            "resource-type": [
+                "popup"
+            ],
+            "if-domain": [
+                "*onlinevideoconverter.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?usercdn\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "document"
+            ],
+            "if-domain": [
+                "*userscloud.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.mxpnl\\.com/libs/mixpanel-.*\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*demandforce.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?streamplay\\.to[^-_.%a-z0-9].*/manifest\\.mpd",
+            "resource-type": [
+                "raw"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?streamplay\\.to[^-_.%a-z0-9].*\\.mp4",
+            "resource-type": [
+                "raw"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?streamplay\\.to[^-_.%a-z0-9].*\\.m4s",
+            "resource-type": [
+                "raw"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?imasdk\\.googleapis\\.com/js/sdkloader/ima3\\.js\\?",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*dugout.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cbsnews4\\.cbsistatic\\.com/fly/bundles/cbsnewscore/js-build/libs/chartbeat\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*cbsnews.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?code\\.adsales\\.snidigital\\.com/conf/ads-config\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*foodnetwork.com",
+                "*travelchannel.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?googletagservices\\.com/tag/js/gpt\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*blastingnews.com",
+                "*pitchfork.com",
+                "*lavoz.com.ar"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cxense\\.com/cx\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*letelegramme.fr"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?googletagmanager\\.com/gtm\\.js.*dataLayer",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*fortune.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?gemius\\.pl/gplayer\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*play.tv3.lt"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ws-na\\.assoc-amazon\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*4tests.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.boomtrain\\.com/analyticstrain/snopes/analyticstrain\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*snopes.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?boomtrain\\.com/identify/resolve",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*snopes.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?blogspot\\.com/",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*kissmanga.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ytimg\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*pocketnow.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?2mdn\\.net/instream/html5/ima3\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*zdnet.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https://api-secure\\.solvemedia\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?openx\\.tv/embed/",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*m4ufree.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?bobcat\\.grahamdigital\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*clickondetroit.com",
+                "*click2houston.com",
+                "*clickorlando.com",
+                "*ksat.com",
+                "*local10.com",
+                "*news4jax.com",
+                "*wsls.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?d1xrtnyoeeet33\\.cloudfront\\.net/assets/js/lib/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*calgaryherald.com",
+                "*calgarysun.com",
+                "*canoe.com",
+                "*edmontonsun.com",
+                "*financialpost.com",
+                "*leaderpost.com",
+                "*lfpress.com",
+                "*montrealgazette.com",
+                "*nationalpost.com",
+                "*ottawacitizen.com",
+                "*ottawasun.com",
+                "*theprovince.com",
+                "*thestarphoenix.com",
+                "*torontosun.com",
+                "*vancouversun.com",
+                "*windsorstar.com",
+                "*winnipegsun.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?deluxemusic\\.tv/.*/videojs\\.ads",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*deluxemusic.tv"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?script\\.ioam\\.de/iam\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*deluxemusic.tv"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cbsistatic\\.com/.*/comscore\\.streaming\\.",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*cbsnews.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static\\.criteo\\.net/js/ld/ld\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*coches.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.vuplay\\.co\\.uk/stats/.*/AppMeasurement\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*vrt.be"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.vuplay\\.co\\.uk/stats/.*/VisitorAPI\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*vrt.be"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?flightapi\\.travix\\.com/flight",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*cheaptickets.nl",
+                "*vayama.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?imrworldwide\\.com/novms/.*/ggcm.*\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*sonycrackle.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?travel-assets\\.com/datacapture/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*expedia.co.uk"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?btstatic\\.com/tag\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*vw.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?assets\\.adobedtm\\.com/launch-.*\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*my5.tv"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static\\.bbc\\.co\\.uk/radio/player/.*/script/logger\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*bbc.co.uk"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static-olxeu\\.akamaized\\.net[^-_.%a-z0-9].*/js/tracking/ninja\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*olx.ua"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?mxpnl\\.com/libs/mixpanel-.*\\.min\\.js",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*frigidaire.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?cbs\\.wondershare\\.com/.*pid=",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?analytics\\.edgekey\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*hbsmediasetit.deltatre.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?smartplugin\\.youbora\\.com/.*/js/adapters/jwplayer",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*ondemandkorea.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*/mma/\\?t",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*newsblaze.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?statics\\.estadao\\.com\\.br/.*/portal/js/comscore/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*estadao.com.br"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?statics\\.estadao\\.com\\.br/.*/utils/publicidade/dfp\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*estadao.com.br"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?msecnd\\.net/scripts/a/ai\\.0\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*msropendata.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static-olxeu\\.akamaized\\.net/static/olxbg/.*/js/tracking/ninja\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*olx.bg"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?jsonip\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*djs-jpn.ga"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?gatr\\.hit\\.gemius\\.pl/gplayer\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*kanald.com.tr"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?fusion\\.ddmcdn\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*discovery.com",
+                "*investigationdiscovery.com",
+                "*sciencechannel.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?src\\.litix\\.io/core/.*/mux\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*discovery.com",
+                "*investigationdiscovery.com",
+                "*sciencechannel.com",
+                "*destinationamerica.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.scarabresearch\\.com/js/.*/scarab-v.*\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*remixshop.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?recommender\\.scarabresearch\\.com/merchants/",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*remixshop.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?fusion\\.ddmcdn\\.com[^-_.%a-z0-9].*/comscore",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*tlc.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?litix\\.io/core/.*/mux\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*tlc.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?js-sec\\.indexww\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*mashable.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?amazon-adsystem\\.com/.*/apstag\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*mashable.com",
+                "*walkingdead.fandom.com",
+                "*telecinco.es",
+                "*cuatro.com",
+                "*factoriadeficcion.com",
+                "*boing.es",
+                "*energytv.es",
+                "*divinity.es",
+                "*bemad.es"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?addthis\\.com/js/.*/addthis_widget\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*sainsburys.jobs"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?api\\.chartbeat\\.com/live/",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*mystatesman.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ajax\\.googleapis\\.com/ajax/libs/jquery/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*adyou.me"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?evidon\\.com/geo/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*cnet.com",
+                "*marieclaire.com",
+                "*techrepublic.com",
+                "*zdnet.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.amplitude\\.com/libs/amplitude-.*\\.gz\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*letgo.com",
+                "*elconfidencial.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.fluidplayer\\.com/",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*desixnxx.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?vo\\.msecnd\\.net/scripts/jsll-",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*remix3d.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?vortex\\.data\\.microsoft\\.com/collect/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*remix3d.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?tredir\\.go\\.com/capmon/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*disney.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*",
+            "resource-type": [
+                "media"
+            ],
+            "if-domain": [
+                "*camwhores.tv",
+                "*1movies.is"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?d1z2jf7jlzjs58\\.cloudfront\\.net/p\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*nfl.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static\\.parsely\\.com/p\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*nfl.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?a\\.4cdn\\.org/.*\\.json",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*4chan.org"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?google\\.com/recaptcha/",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*boards.4chan.org"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.cxense\\.com/cx\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*mega.cl"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?fusion\\.ddmcdn\\.com/app/.*/comscore\\.streaming\\.",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*destinationamerica.com",
+                "*velocity.com",
+                "*motortrend.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?v\\.fwmrm\\.net/ad/",
+            "resource-type": [
+                "script",
+                "raw"
+            ],
+            "if-domain": [
+                "*destinationamerica.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?googleusercontent\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*kissmanga.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?gstatic\\.com[^-_.%a-z0-9].*/recaptcha/",
+            "resource-type": [
+                "script"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?geoip\\.nekudo\\.com/api/",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*opentable.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?mlbstatic\\.com/.*/AppMeasurement",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*mlb.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?mlbstatic\\.com/.*/VisitorAPI\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*mlb.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?backend\\.worldoftulo\\.com/",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*barometern.se"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?surveywall-api\\.survata\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*survata.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?mssl\\.fwmrm\\.net/p/abc_live/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*abc.go.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?v\\.fwmrm\\.net/ad/g/1",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*abc.go.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://.*/visitorapi\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*abc.go.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?validate\\.onecount\\.net/js/all\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*foreignpolicy.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?validate\\.onecount\\.net/onecount/api/public/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*foreignpolicy.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ajax\\.googleapis\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*dailywire.com",
+                "*linkdrop.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?soundcloud\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*dailywire.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?savings\\.bizx\\.info([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*sourceforge.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^wss?://([^/]+\\.)?bizx\\.info([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*sourceforge.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?quantcast\\.mgr\\.consensu\\.org([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*sourceforge.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?js\\.spotx\\.tv/directsdk/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*bloomberg.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?search\\.spotxchange\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*bloomberg.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?connect\\.facebook\\..*/.*/AudienceNetworkPrebid\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*cbssports.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?javpost\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "document"
+            ],
+            "if-domain": [
+                "*javmost.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?js\\.helltraffic\\.com/fluidplayer/",
+            "resource-type": [
+                "style-sheet",
+                "script"
+            ],
+            "if-domain": [
+                "*tubewolf.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?chaturbate\\.com/affiliates/promotools/popup/l6gje/popchaturbaterevshare\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*sexanalporn.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?chaturbate\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "document"
+            ],
+            "if-domain": [
+                "*blacksbigwomensexy.com",
+                "*fastfuckmilf.com",
+                "*pornoxxxporn.com",
+                "*sexanalporn.com",
+                "*xxxuno.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?xlovecam\\.com/promo/livechat/",
+            "resource-type": [
+                "document"
+            ],
+            "if-domain": [
+                "*pornoxxxporn.com",
+                "*sexanalporn.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?rd\\.rakuten\\.co\\.jp/.*login",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*rakuten.co.jp"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?rd\\.rakuten\\.co\\.jp/.*logout",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*rakuten.co.jp"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?coinhive\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*bff.today"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?mm-syringe\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*mysanantonio.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?utility\\.rogersmedia\\.com/utility\\.js",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*todaysparent.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?wsj\\.net/.*/cxense-candy\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*wsj.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?scdn\\.cxense\\.com/cx\\.",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*wsj.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?zqtk\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*wsj.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?gogoanime\\.to/.*/player\\.js",
+            "resource-type": [
+                "script"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?monero\\.crypto-webminer\\.com/monero\\.html",
+            "resource-type": [
+                "document"
+            ],
+            "if-domain": [
+                "*monero-miner.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?securepubads\\.g\\.doubleclick\\.net/gpt/pubads_impl",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*pitchfork.com",
+                "*gamespot.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?pub\\.247-inc\\.net/psp/platform/",
+            "resource-type": [
+                "document"
+            ],
+            "if-domain": [
+                "*bbystatic.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?imgdew\\.com/js/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*imgdew.pw"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?voxmedia\\.com/pickup\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*theverge.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?phonograph2\\.voxmedia\\.com/needle",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*theverge.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?edgedatg\\.com/aws/assets/cp/web/assets/js/.*/AppMeasurement\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*disneynow.go.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static\\.adsnative\\.com/static/js/render\\..*\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*streamable.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?script\\.adshark\\.site/script\\.php\\?id=ad_watchfree",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*watchfree.at"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?litix\\.io/core/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*velocity.com",
+                "*motortrend.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static\\.chartbeat\\.com/js/chartbeat_mab\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*ny1.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?web-scripts\\.vice\\.com/.*/AdobeAnalyticsSDK\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*viceland.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?an\\.yandex\\.ru/system/context\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*avito.ru"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ads\\.rogersmedia\\.com/cbc",
+            "resource-type": [
+                "document"
+            ],
+            "if-domain": [
+                "*cbc.ca"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?doubleclick\\.net/ssai/event/",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*players.brightcove.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?bing\\.com/",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "popup"
+            ],
+            "if-domain": [
+                "*msn.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?startpage\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "popup"
+            ],
+            "if-domain": [
+                "*msn.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?bloomjoy\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*wokesloth.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?dk4ywix\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*endocrineweb.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?rebelsubway\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*endocrineweb.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?googletagmanager\\.com/gtm\\.js\\?",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*action.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.optimizely\\.com/public/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*nytimes.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?googletagmanager\\.com/gtag/js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*stardock.com",
+                "*quickcode.co",
+                "*hentaifox.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?plugin\\.intuitcdn\\.net/ua-parser-js/.*/ua-parser\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*qbo.intuit.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?google\\.com/afsonline/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*newser.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.mg2connext\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "font"
+            ],
+            "if-domain": [
+                "*denverpost.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?instagram\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "popup"
+            ],
+            "if-domain": [
+                "*msn.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?imasdk\\.googleapis\\.com/js/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*kizi.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ipinfo\\.io/\\?token",
+            "resource-type": [
+                "raw"
+            ],
+            "if-domain": [
+                "*webtv.ert.gr"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?trbas\\.com/jive/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*baltimoresun.com",
+                "*capitalgazette.com",
+                "*chicagotribune.com",
+                "*citypaper.com",
+                "*dailypress.com",
+                "*mcall.com",
+                "*orlandosentinel.com",
+                "*pacificsandiego.com",
+                "*sandiegouniontribune.com",
+                "*sun-sentinel.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static\\.sunmedia\\.tv/integrations/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*api.gooru.live",
+                "*elespanol.com",
+                "*periodistadigital.tv"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdnjs\\.cloudflare\\.com/ajax/libs/fingerprintjs2/.*/fingerprint2\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*jiosaavn.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?nitropay\\.com/ads-",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*lolalytics.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdnjs\\.cloudflare\\.com/ajax/libs/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*fckrasnodar.ru"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.zidedge\\.com/zp/ranker/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*ranker.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?petametrics\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*ranker.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?s3\\.amazonaws\\.com/assets\\.sidearmsports\\.com/statcollector/statcollector\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*bigten.org"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?texasinstruments\\.evergage\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*ti.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.optimizely\\.com/js/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*aetv.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?c\\.paypal\\.com/da/r/fb\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*sunnylandfarms.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?vshare\\.eu/",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "popup"
+            ],
+            "if-domain": [
+                "*putlockers.fm"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?widgets\\.outbrain\\.com/outbrain\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*nypost.com",
+                "*pagesix.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?odb\\.outbrain\\.com/utils/get\\?url",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*nypost.com",
+                "*pagesix.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?s2\\.coinmarketcap\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?load\\.sumome\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*beewits.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?live\\.streamtheworld\\.com/.*banners",
+            "resource-type": [
+                "media"
+            ],
+            "if-domain": [
+                "*player.radio.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.pubguru\\.com/pg\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*ebonus.gg"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?m2\\.ai/pghb\\.ebonusgg\\.web\\.watch2",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*ebonus.gg"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?wlne\\.images\\.worldnow\\.com/ads/.*\\.jpg\\?auto=web",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*abc6.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?wlne\\.images\\.worldnow\\.com/ads/.*\\.png",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*abc6.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?static1\\.dmcdn\\.net/playerv5/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*laprovence.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.taplytics\\.com/taplytics\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*es.wallapop.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?pbs\\.twimg\\.com/ad_img/",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*theverge.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?youtube\\.com/yts/jsbin/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*breathecast.com",
+                "*classicalite.com",
+                "*crossmap.com",
+                "*hallels.com",
+                "*newseveryday.com",
+                "*returnofkings.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?analytics\\.edgekey\\.net/ma_library/javascript/javascript_malibrary\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*nhk.or.jp"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?4cdn\\.org([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*4chan.org"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?player\\.aniview\\.com/script/.*/AVmanager\\.js",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*inquirer.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?da\\.admeira\\.ch/adm_signaturscript\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*blick.ch"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?browser\\.sentry-cdn\\.com/.*/bundle\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*blick.ch",
+                "*tred.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?eastprodcdn\\.azureedge\\.net/bundles/.*velaro",
+            "resource-type": [
+                "script"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?pagead2\\.googlesyndication\\.com/pagead/js/adsbygoogle\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*boo.tw",
+                "*b00.tw"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?scripts\\.repubblica\\.it/",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*gelocal.it"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?imasdk\\.googleapis\\.com/js/sdkloader/ima3\\.js",
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*linetv.tw"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?gfp\\.veta\\.naver\\.com/adcall",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*vlive.tv"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?imasdk\\.googleapis\\.com/pal/sdkloader/pal\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*20min.ch"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?perfops\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*cdnperf.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?adswizz\\.com/anon\\.npr-mp3/",
+            "resource-type": [
+                "media"
+            ],
+            "if-domain": [
+                "*podbay.fm",
+                "*podbean.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?adswizz\\.com/anon\\.npr-podcasts/",
+            "resource-type": [
+                "media"
+            ],
+            "if-domain": [
+                "*player.fm",
+                "*podbay.fm",
+                "*podbean.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ads\\.exosrv\\.com/ads\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*porngrey.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?syndication\\.exosrv\\.com/ads-iframe-display\\.php",
+            "resource-type": [
+                "document"
+            ],
+            "if-domain": [
+                "*porngrey.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?uliza\\.jp/.*/RequestVideoTag\\.aspx",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*www.tv-tokyo.co.jp"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?dev\\.visualwebsiteoptimizer\\.com/.*\\.quickcode\\.co.*login",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*quickcode.co"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?cdn\\.gotraffic\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "if-domain": [
+                "*bloomberg.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?d8rk54i4mohrb\\.cloudfront\\.net/js/video\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*forbes.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?exoclick\\.com/privacy-and-cookies-policy/",
+            "resource-type": [
+                "popup"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.tsyndicate\\.com/sdk/.*/n\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*hpjav.tv"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?js\\.allowme\\.com\\.br/analytics",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*extra.com.br"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?code\\.jquery\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*kimcartoon.me",
+                "*kimcartoon.to"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?vjs\\.zencdn\\.net/.*/video\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*kimcartoon.me",
+                "*kimcartoon.to"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?gstatic\\.com/images/branding/.*/adsense",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*safebrowsing.google.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?adobedtm\\.com/.*/satelliteLib",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*fcbarcelona.cat",
+                "*fcbarcelona.cn",
+                "*fcbarcelona.com",
+                "*fcbarcelona.es",
+                "*fcbarcelona.fr",
+                "*fcbarcelona.jp"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?adobedtm\\.com/.*/mbox-contents-",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*fcbarcelona.cat",
+                "*fcbarcelona.cn",
+                "*fcbarcelona.com",
+                "*fcbarcelona.es",
+                "*fcbarcelona.fr",
+                "*fcbarcelona.jp"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?tm\\.jsuol\\.com\\.br/uoltm\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*macmagazine.uol.com.br"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.cdn000\\.club/js/loadjs\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*vipstand.se"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdnjs\\.cloudflare\\.com/ajax/libs/jquery/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*openloed.co"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?scdn\\.cxense\\.com/cx\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*digi24.ro"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?d24n15hnbwhuhn\\.cloudfront\\.net/libs/amplitude-",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*gethuman.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.intergi\\.com/pageos/pageos\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*abcya.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.playwire\\.com/bolt.*/",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*abcya.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?media\\.larena\\.it/media/lib/cmp/cmp\\.bundle\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*larena.it"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?djnf6e5yyirys\\.cloudfront\\.net/js/friendbuy\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*imperfectproduce.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?src\\.litix\\.io/videojs/.*/videojs-mux\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*dmax.de",
+                "*tlc.de"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?doubleclick\\.net/gampad/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*lavoz.com.ar"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?doubleclick\\.net/gpt/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*lavoz.com.ar"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?storage\\.googleapis\\.com/adcase\\.io/dist/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*lavoz.com.ar"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cloudfront\\.net/ad/.*-small-",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*ispot.tv"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cloudfront\\.net/img/",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*ispot.tv"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?discordapp\\.net/external/",
+            "resource-type": [
+                "image"
+            ],
+            "if-domain": [
+                "*discordapp.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?video\\.a4g\\.com/www/delivery/video\\.php",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*bestescapegames.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?inpref\\.s3\\.amazonaws\\.com/sites/kauppahalli",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*kauppahalli24.fi"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.geni\\.us/snippet\\.min\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*pcmonitors.info"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?cdn\\.jsdelivr\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*stream2watch.ws"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?securepubads\\.g\\.doubleclick\\.net/tag/js/gpt\\.js",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*gamespot.com"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?ezoic\\.net/wabbit/",
+            "resource-type": [
+                "script"
+            ],
+            "if-domain": [
+                "*gerweck.net"
+            ]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    }
+]

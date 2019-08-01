@@ -1,6 +1,6 @@
 //
 //  ContentBlockerRequestHandler.swift
-//  uBlock - Privacy
+//  uBlock filters - Privacy
 //
 //  Created by Andrew Mattie on 7/31/19.
 //  Copyright © 2019 Mattie Apps. All rights reserved.

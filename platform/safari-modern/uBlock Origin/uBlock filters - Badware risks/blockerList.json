@@ -1,0 +1,1504 @@
+[
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?chip\\.de[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[href^=\"javascript:DownloadStartInit\"]"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?upload\\.ac[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(remove-attr.js, checked, [id=chkIsAdd])"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?upload4earn\\.org[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(remove-attr.js, checked)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?windowsreport\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".code-block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?appuals\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".appua-reimage-top, .info.box"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?pcseguro\\.es[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".download_button_info_texts, .js-download_button_additional_links, .primary_download, .sidebar_download_inner, div.attention-button-box-green"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?sauguspc\\.lt[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".download_button_info_texts, .js-download_button_additional_links, .primary_download, .sidebar_download_inner, div.attention-button-box-green"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?sichernpc\\.de[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".download_button_info_texts, .js-download_button_additional_links, .primary_download, .sidebar_download_inner, div.attention-button-box-green"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?ugetfix\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".download_button_info_texts, .js-download_button_additional_links, .primary_download, .sidebar_download_inner, div.attention-button-box-green"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?wyleczpc\\.pl[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".download_button_info_texts, .js-download_button_additional_links, .primary_download, .sidebar_download_inner, div.attention-button-box-green"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?thewindowsclub\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".entry-content > div > strong:has-text(find & fix Windows error)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?majorgeeks\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "b:has(a[target^=\"reimage\"])"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?1tvv\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?2012-drakon\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?2012-god\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?2015-god-kozy\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?alterprogs\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?bike-pro\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?bilsh\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?careers\\.ua[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?daily-news\\.com\\.ua[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?darksound\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?dengiua\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?diplom4rabota\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?dynamo-kiev\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?electronika\\.spb\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?faxnews\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?fond-sovest\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?fotochki\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?gamesnice\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?glashataj\\.info[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?god-zmei\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?godkota\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?godkozy\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?gogofiles\\.net[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?gorod-zlatoust\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?great-income\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?gsm-csb\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?guitar-love\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?healthystyle\\.info[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?huaweiclub\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?i-no\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?igeek\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?intell\\.in\\.ua[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?jampo\\.com\\.ua[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?jusonline\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?kaspianchoob\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?livegif\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?lock-omsk\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?marafonec\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?maxigame\\.su[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?mcomp\\.org[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?mediahouse\\.com\\.ua[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?miptic\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?mir-kliparta\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?mobile-novinki\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?myimperia\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?nakapote\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?nb-yanao\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?neodrive\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?nepoleno\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?newsdnya\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?newsinmir\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?nokia-lifestyle\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?novoden\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?obzh\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?onegadget\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?orbita-lviv\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?pingola\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?pokemongo-go\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?pravpost\\.org\\.ua[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?rao-ees\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?ratnet\\.od\\.ua[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?remontidekor\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?softgaz\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?sosedi2015\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?spletnius\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?stuffed\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?submarine\\.od\\.ua[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?sup-idea\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?supreme2\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?tic\\.com\\.ua[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?tipslife\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?topicnews\\.net[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?turmouse\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?uralmtk\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?usetrans\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?v2013\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?vhoru\\.com\\.ua[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?vkulake\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?vnebi\\.com[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?vremechko\\.org[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?vremyamn\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?webrecepty\\.info[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?amurutro\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?ap7\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?gadgetblog\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?globalomsk\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?yuriblog\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?zakryma\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?zamanula\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?zheltaya\\.ru[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "+js(abort-on-property-read.js, document.getElementById)"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?gamemod\\.pro[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[href*=\"//appandroider.com\"]"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/:]*\\.)?taigameandroid\\.asia[/:]",
+            "url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[href*=\"//appandroider.com\"]"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?flexytalk\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?flexytalk\\.net([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?quickdomainfwd\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?quickdomainfwd\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?roughted\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?roughted\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?newsharecounts\\.s3-us-west-2\\.amazonaws\\.com/nsc\\.js",
+            "resource-type": [
+                "script"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^https?://([^/]+\\.)?majorgeeks\\.com/images/icons/red_icon_18x17px\\.png",
+            "resource-type": [
+                "image"
+            ]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?horizonme\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?horizonme\\.net([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?icecreamsmax\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?icecreamsmax\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?36512300\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?36512300\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?bks-11\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?bks-11\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?doggroomingbycaitlin\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?doggroomingbycaitlin\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?gmboxx\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?gmboxx\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?kalidub\\.website([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?kalidub\\.website([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?mr\\.media-bucket\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?mr\\.media-bucket\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?okom\\.wroc\\.pl([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?okom\\.wroc\\.pl([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?pl\\.allsports4free\\.club([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?pl\\.allsports4free\\.club([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?pl\\.allsports4u\\.club([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?pl\\.allsports4u\\.club([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?discount\\.s3blog\\.org([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?discount\\.s3blog\\.org([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?crvtck\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?crvtck\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?dataprovider\\.biz([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?dataprovider\\.biz([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?tplinkextender\\.net([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?tplinkextender\\.net([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?ublockerext\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?ublockerext\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "^[^:]+:(//)?([^/]+\\.)?appandroider\\.com([^-_.%a-z0-9].*)?$",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "image",
+                "style-sheet",
+                "script",
+                "font",
+                "media",
+                "raw",
+                "document"
+            ],
+            "unless-top-url": [
+                "^[^:]+:(//)?([^/]+\\.)?appandroider\\.com([^-_.%a-z0-9].*)?$"
+            ],
+            "top-url-filter-is-case-sensitive": true
+        },
+        "action": {
+            "type": "block"
+        }
+    }
+]

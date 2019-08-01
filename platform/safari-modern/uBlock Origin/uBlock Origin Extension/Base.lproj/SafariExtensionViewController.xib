@@ -7,7 +7,6 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="SafariExtensionViewController" customModule="uBlock_Origin_Extension" customModuleProvider="target">
             <connections>
-                <outlet property="powerButton" destination="U4p-dv-9Au" id="2W1-Vk-fzv"/>
                 <outlet property="view" destination="c22-O7-iKe" id="vwT-Xx-Aiz"/>
             </connections>
         </customObject>
@@ -25,21 +24,6 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <button translatesAutoresizingMaskIntoConstraints="NO" id="U4p-dv-9Au">
-                    <rect key="frame" x="100" y="128" width="128" height="128"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="128" id="BKe-p2-X3A"/>
-                        <constraint firstAttribute="width" secondItem="U4p-dv-9Au" secondAttribute="height" multiplier="1:1" id="D33-CW-CtP"/>
-                        <constraint firstAttribute="height" constant="128" id="UyT-Mc-IX2"/>
-                    </constraints>
-                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="power-button-off" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="nhm-Sg-A4v">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="powerOnOff:" target="-2" id="hiA-yR-i74"/>
-                    </connections>
-                </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bZd-i7-cKl">
                     <rect key="frame" x="14" y="1" width="300" height="32"/>
                     <buttonCell key="cell" type="push" title="Settings" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CpH-t5-tzQ">
@@ -50,22 +34,38 @@
                         <action selector="settings:" target="-2" id="tRS-80-a49"/>
                     </connections>
                 </button>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="72T-Ti-Bu8">
+                    <rect key="frame" x="20" y="239" width="302" height="17"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Filters enabled - 0/4" id="W6t-bx-1I8">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1Dy-40-wpW">
+                    <rect key="frame" x="14" y="34" width="300" height="32"/>
+                    <buttonCell key="cell" type="push" title="Enable/Disable filters" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="n9J-QS-HEj">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="settings:" target="-2" id="5ef-Ge-Uzb"/>
+                    </connections>
+                </button>
             </subviews>
             <constraints>
                 <constraint firstItem="4Iy-aV-wGF" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="0NB-2X-Qpc"/>
                 <constraint firstAttribute="bottom" secondItem="bZd-i7-cKl" secondAttribute="bottom" constant="8" id="3n4-MT-Ce2"/>
+                <constraint firstAttribute="trailing" secondItem="1Dy-40-wpW" secondAttribute="trailing" constant="20" id="Fx8-zn-mu6"/>
+                <constraint firstItem="bZd-i7-cKl" firstAttribute="top" secondItem="1Dy-40-wpW" secondAttribute="bottom" constant="12" id="LXS-1l-aiq"/>
                 <constraint firstAttribute="trailing" secondItem="bZd-i7-cKl" secondAttribute="trailing" constant="20" symbolic="YES" id="aG9-hN-TyS"/>
+                <constraint firstItem="1Dy-40-wpW" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="ba1-Bu-JKa"/>
                 <constraint firstAttribute="trailing" secondItem="4Iy-aV-wGF" secondAttribute="trailing" constant="8" id="eAd-tA-Of0"/>
                 <constraint firstItem="4Iy-aV-wGF" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="8" id="meQ-ww-s0E"/>
                 <constraint firstItem="bZd-i7-cKl" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" symbolic="YES" id="nRe-zD-rDt"/>
-                <constraint firstItem="U4p-dv-9Au" firstAttribute="firstBaseline" secondItem="4Iy-aV-wGF" secondAttribute="baseline" constant="60" id="pwR-CO-62N"/>
-                <constraint firstItem="U4p-dv-9Au" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="100" id="vgm-O7-tEU"/>
-                <constraint firstAttribute="trailing" secondItem="U4p-dv-9Au" secondAttribute="trailing" constant="100" id="wvj-N6-H5h"/>
             </constraints>
             <point key="canvasLocation" x="138" y="239.5"/>
         </customView>
     </objects>
-    <resources>
-        <image name="power-button-off" width="51.200000762939453" height="51.200000762939453"/>
-    </resources>
 </document>
