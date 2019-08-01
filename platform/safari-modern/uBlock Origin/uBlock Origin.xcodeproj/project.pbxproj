@@ -23,6 +23,10 @@
 		1904F08B22F29B7F00C93826 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 1904F08A22F29B7F00C93826 /* blockerList.json */; };
 		1904F08D22F29B7F00C93826 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904F08C22F29B7F00C93826 /* ContentBlockerRequestHandler.swift */; };
 		1904F09222F29B7F00C93826 /* uBlock filters - Unbreak.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1904F08722F29B7F00C93826 /* uBlock filters - Unbreak.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1904F09B22F36A4D00C93826 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
+		1904F09E22F36A4D00C93826 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 1904F09D22F36A4D00C93826 /* blockerList.json */; };
+		1904F0A022F36A4D00C93826 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904F09F22F36A4D00C93826 /* ContentBlockerRequestHandler.swift */; };
+		1904F0A522F36A4D00C93826 /* uBlock - EasyPrivacy.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1904F09A22F36A4D00C93826 /* uBlock - EasyPrivacy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		19151FAA22F2523E00A4388D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
 		19151FAD22F2523E00A4388D /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19151FAC22F2523E00A4388D /* blockerList.json */; };
 		19151FAF22F2523E00A4388D /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19151FAE22F2523E00A4388D /* ContentBlockerRequestHandler.swift */; };
@@ -46,6 +50,26 @@
 		1941A50722EA6C4D00AF66B7 /* safari-icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1941A50122EA6C4D00AF66B7 /* safari-icon16.png */; };
 		1941A50822EA6C4D00AF66B7 /* safari-icon16-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1941A50222EA6C4D00AF66B7 /* safari-icon16-off@2x.png */; };
 		1941A50922EA6C4D00AF66B7 /* safari-icon16.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1941A50322EA6C4D00AF66B7 /* safari-icon16.svg */; };
+		19BF970622F36ADD00E64B5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
+		19BF970922F36ADD00E64B5A /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19BF970822F36ADD00E64B5A /* blockerList.json */; };
+		19BF970B22F36ADD00E64B5A /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF970A22F36ADD00E64B5A /* ContentBlockerRequestHandler.swift */; };
+		19BF971022F36ADD00E64B5A /* uBlock - Malware Domain List.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19BF970522F36ADD00E64B5A /* uBlock - Malware Domain List.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		19BF971922F36B3C00E64B5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
+		19BF971C22F36B3C00E64B5A /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19BF971B22F36B3C00E64B5A /* blockerList.json */; };
+		19BF971E22F36B3C00E64B5A /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF971D22F36B3C00E64B5A /* ContentBlockerRequestHandler.swift */; };
+		19BF972322F36B3C00E64B5A /* uBlock - Malware domains.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19BF971822F36B3C00E64B5A /* uBlock - Malware domains.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		19BF972C22F36C7900E64B5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
+		19BF972F22F36C7900E64B5A /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19BF972E22F36C7900E64B5A /* blockerList.json */; };
+		19BF973122F36C7900E64B5A /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF973022F36C7900E64B5A /* ContentBlockerRequestHandler.swift */; };
+		19BF973622F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19BF972B22F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		19BF973F22F3707900E64B5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
+		19BF974222F3707900E64B5A /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19BF974122F3707900E64B5A /* blockerList.json */; };
+		19BF974422F3707900E64B5A /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF974322F3707900E64B5A /* ContentBlockerRequestHandler.swift */; };
+		19BF974922F3707900E64B5A /* uBlock - EasyList A.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19BF973E22F3707900E64B5A /* uBlock - EasyList A.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		19BF975222F3732500E64B5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941A4CA22E9551400AF66B7 /* Cocoa.framework */; };
+		19BF975522F3732500E64B5A /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19BF975422F3732500E64B5A /* blockerList.json */; };
+		19BF975722F3732500E64B5A /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF975622F3732500E64B5A /* ContentBlockerRequestHandler.swift */; };
+		19BF975C22F3732500E64B5A /* uBlock - EasyList B.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19BF975122F3732500E64B5A /* uBlock - EasyList B.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +101,13 @@
 			remoteGlobalIDString = 1904F08622F29B7F00C93826;
 			remoteInfo = "uBlock filters - Unbreak";
 		};
+		1904F0A322F36A4D00C93826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1904F09922F36A4D00C93826;
+			remoteInfo = "uBlock - EasyPrivacy";
+		};
 		19151FB222F2523E00A4388D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
@@ -91,6 +122,41 @@
 			remoteGlobalIDString = 1941A4C422E9551400AF66B7;
 			remoteInfo = "uBlock Origin Extension";
 		};
+		19BF970E22F36ADD00E64B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19BF970422F36ADD00E64B5A;
+			remoteInfo = "uBlock - Malware Domain List";
+		};
+		19BF972122F36B3C00E64B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19BF971722F36B3C00E64B5A;
+			remoteInfo = "uBlock - Malware domains";
+		};
+		19BF973422F36C7900E64B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19BF972A22F36C7900E64B5A;
+			remoteInfo = "uBlock - Peter Lowe’s Ad and tracking server list";
+		};
+		19BF974722F3707900E64B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19BF973D22F3707900E64B5A;
+			remoteInfo = "uBlock - EasyList A";
+		};
+		19BF975A22F3732500E64B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1941A4AA22E9551300AF66B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19BF975022F3732500E64B5A;
+			remoteInfo = "uBlock - EasyList B";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,12 +166,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				19BF971022F36ADD00E64B5A /* uBlock - Malware Domain List.appex in Embed App Extensions */,
+				1904F0A522F36A4D00C93826 /* uBlock - EasyPrivacy.appex in Embed App Extensions */,
+				19BF975C22F3732500E64B5A /* uBlock - EasyList B.appex in Embed App Extensions */,
+				19BF974922F3707900E64B5A /* uBlock - EasyList A.appex in Embed App Extensions */,
 				1904F09222F29B7F00C93826 /* uBlock filters - Unbreak.appex in Embed App Extensions */,
+				19BF973622F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list.appex in Embed App Extensions */,
 				1904F05922F29A8900C93826 /* uBlock filters - Badware risks.appex in Embed App Extensions */,
 				1941A4C622E9551400AF66B7 /* uBlock Origin Extension.appex in Embed App Extensions */,
 				1904F06C22F29B0B00C93826 /* uBlock filters - Privacy.appex in Embed App Extensions */,
 				1904F07F22F29B3F00C93826 /* uBlock filters - Resource abuse.appex in Embed App Extensions */,
 				19151FB422F2523E00A4388D /* uBlock filters.appex in Embed App Extensions */,
+				19BF972322F36B3C00E64B5A /* uBlock - Malware domains.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +205,11 @@
 		1904F08C22F29B7F00C93826 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		1904F08E22F29B7F00C93826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1904F08F22F29B7F00C93826 /* uBlock_filters___Unbreak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "uBlock_filters___Unbreak.entitlements"; sourceTree = "<group>"; };
+		1904F09A22F36A4D00C93826 /* uBlock - EasyPrivacy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "uBlock - EasyPrivacy.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1904F09D22F36A4D00C93826 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		1904F09F22F36A4D00C93826 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		1904F0A122F36A4D00C93826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1904F0A222F36A4D00C93826 /* uBlock___EasyPrivacy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "uBlock___EasyPrivacy.entitlements"; sourceTree = "<group>"; };
 		19151FA922F2523E00A4388D /* uBlock filters.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "uBlock filters.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19151FAC22F2523E00A4388D /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
 		19151FAE22F2523E00A4388D /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
@@ -162,6 +239,31 @@
 		1941A50122EA6C4D00AF66B7 /* safari-icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "safari-icon16.png"; sourceTree = "<group>"; };
 		1941A50222EA6C4D00AF66B7 /* safari-icon16-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "safari-icon16-off@2x.png"; sourceTree = "<group>"; };
 		1941A50322EA6C4D00AF66B7 /* safari-icon16.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "safari-icon16.svg"; sourceTree = "<group>"; };
+		19BF970522F36ADD00E64B5A /* uBlock - Malware Domain List.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "uBlock - Malware Domain List.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BF970822F36ADD00E64B5A /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		19BF970A22F36ADD00E64B5A /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		19BF970C22F36ADD00E64B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BF970D22F36ADD00E64B5A /* uBlock___Malware_Domain_List.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "uBlock___Malware_Domain_List.entitlements"; sourceTree = "<group>"; };
+		19BF971822F36B3C00E64B5A /* uBlock - Malware domains.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "uBlock - Malware domains.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BF971B22F36B3C00E64B5A /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		19BF971D22F36B3C00E64B5A /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		19BF971F22F36B3C00E64B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BF972022F36B3C00E64B5A /* uBlock___Malware_domains.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "uBlock___Malware_domains.entitlements"; sourceTree = "<group>"; };
+		19BF972B22F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "uBlock - Peter Lowe’s Ad and tracking server list.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BF972E22F36C7900E64B5A /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		19BF973022F36C7900E64B5A /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		19BF973222F36C7900E64B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BF973322F36C7900E64B5A /* uBlock___Peter_Lowe_s_Ad_and_tracking_server_list.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "uBlock___Peter_Lowe_s_Ad_and_tracking_server_list.entitlements"; sourceTree = "<group>"; };
+		19BF973E22F3707900E64B5A /* uBlock - EasyList A.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "uBlock - EasyList A.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BF974122F3707900E64B5A /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		19BF974322F3707900E64B5A /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		19BF974522F3707900E64B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BF974622F3707900E64B5A /* uBlock___EasyList_A.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "uBlock___EasyList_A.entitlements"; sourceTree = "<group>"; };
+		19BF975122F3732500E64B5A /* uBlock - EasyList B.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "uBlock - EasyList B.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BF975422F3732500E64B5A /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		19BF975622F3732500E64B5A /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		19BF975822F3732500E64B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BF975922F3732500E64B5A /* uBlock___EasyList_B.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "uBlock___EasyList_B.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +299,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1904F09722F36A4D00C93826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1904F09B22F36A4D00C93826 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19151FA622F2523E00A4388D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +327,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				1941A4CB22E9551400AF66B7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF970222F36ADD00E64B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF970622F36ADD00E64B5A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF971522F36B3C00E64B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF971922F36B3C00E64B5A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF972822F36C7900E64B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF972C22F36C7900E64B5A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF973B22F3707900E64B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF973F22F3707900E64B5A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF974E22F3732500E64B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF975222F3732500E64B5A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +418,17 @@
 			path = "uBlock filters - Unbreak";
 			sourceTree = "<group>";
 		};
+		1904F09C22F36A4D00C93826 /* uBlock - EasyPrivacy */ = {
+			isa = PBXGroup;
+			children = (
+				1904F09D22F36A4D00C93826 /* blockerList.json */,
+				1904F09F22F36A4D00C93826 /* ContentBlockerRequestHandler.swift */,
+				1904F0A122F36A4D00C93826 /* Info.plist */,
+				1904F0A222F36A4D00C93826 /* uBlock___EasyPrivacy.entitlements */,
+			);
+			path = "uBlock - EasyPrivacy";
+			sourceTree = "<group>";
+		};
 		19151FAB22F2523E00A4388D /* uBlock filters */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +450,12 @@
 				1904F06322F29B0B00C93826 /* uBlock filters - Privacy */,
 				1904F07622F29B3F00C93826 /* uBlock filters - Resource abuse */,
 				1904F08922F29B7F00C93826 /* uBlock filters - Unbreak */,
+				1904F09C22F36A4D00C93826 /* uBlock - EasyPrivacy */,
+				19BF970722F36ADD00E64B5A /* uBlock - Malware Domain List */,
+				19BF971A22F36B3C00E64B5A /* uBlock - Malware domains */,
+				19BF972D22F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list */,
+				19BF974022F3707900E64B5A /* uBlock - EasyList A */,
+				19BF975322F3732500E64B5A /* uBlock - EasyList B */,
 				1941A4C922E9551400AF66B7 /* Frameworks */,
 				1941A4B322E9551300AF66B7 /* Products */,
 			);
@@ -304,6 +471,12 @@
 				1904F06122F29B0B00C93826 /* uBlock filters - Privacy.appex */,
 				1904F07422F29B3F00C93826 /* uBlock filters - Resource abuse.appex */,
 				1904F08722F29B7F00C93826 /* uBlock filters - Unbreak.appex */,
+				1904F09A22F36A4D00C93826 /* uBlock - EasyPrivacy.appex */,
+				19BF970522F36ADD00E64B5A /* uBlock - Malware Domain List.appex */,
+				19BF971822F36B3C00E64B5A /* uBlock - Malware domains.appex */,
+				19BF972B22F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list.appex */,
+				19BF973E22F3707900E64B5A /* uBlock - EasyList A.appex */,
+				19BF975122F3732500E64B5A /* uBlock - EasyList B.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,6 +521,61 @@
 				1941A4D922E9551400AF66B7 /* uBlock_Origin_Extension.entitlements */,
 			);
 			path = "uBlock Origin Extension";
+			sourceTree = "<group>";
+		};
+		19BF970722F36ADD00E64B5A /* uBlock - Malware Domain List */ = {
+			isa = PBXGroup;
+			children = (
+				19BF970822F36ADD00E64B5A /* blockerList.json */,
+				19BF970A22F36ADD00E64B5A /* ContentBlockerRequestHandler.swift */,
+				19BF970C22F36ADD00E64B5A /* Info.plist */,
+				19BF970D22F36ADD00E64B5A /* uBlock___Malware_Domain_List.entitlements */,
+			);
+			path = "uBlock - Malware Domain List";
+			sourceTree = "<group>";
+		};
+		19BF971A22F36B3C00E64B5A /* uBlock - Malware domains */ = {
+			isa = PBXGroup;
+			children = (
+				19BF971B22F36B3C00E64B5A /* blockerList.json */,
+				19BF971D22F36B3C00E64B5A /* ContentBlockerRequestHandler.swift */,
+				19BF971F22F36B3C00E64B5A /* Info.plist */,
+				19BF972022F36B3C00E64B5A /* uBlock___Malware_domains.entitlements */,
+			);
+			path = "uBlock - Malware domains";
+			sourceTree = "<group>";
+		};
+		19BF972D22F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list */ = {
+			isa = PBXGroup;
+			children = (
+				19BF972E22F36C7900E64B5A /* blockerList.json */,
+				19BF973022F36C7900E64B5A /* ContentBlockerRequestHandler.swift */,
+				19BF973222F36C7900E64B5A /* Info.plist */,
+				19BF973322F36C7900E64B5A /* uBlock___Peter_Lowe_s_Ad_and_tracking_server_list.entitlements */,
+			);
+			path = "uBlock - Peter Lowe’s Ad and tracking server list";
+			sourceTree = "<group>";
+		};
+		19BF974022F3707900E64B5A /* uBlock - EasyList A */ = {
+			isa = PBXGroup;
+			children = (
+				19BF974122F3707900E64B5A /* blockerList.json */,
+				19BF974322F3707900E64B5A /* ContentBlockerRequestHandler.swift */,
+				19BF974522F3707900E64B5A /* Info.plist */,
+				19BF974622F3707900E64B5A /* uBlock___EasyList_A.entitlements */,
+			);
+			path = "uBlock - EasyList A";
+			sourceTree = "<group>";
+		};
+		19BF975322F3732500E64B5A /* uBlock - EasyList B */ = {
+			isa = PBXGroup;
+			children = (
+				19BF975422F3732500E64B5A /* blockerList.json */,
+				19BF975622F3732500E64B5A /* ContentBlockerRequestHandler.swift */,
+				19BF975822F3732500E64B5A /* Info.plist */,
+				19BF975922F3732500E64B5A /* uBlock___EasyList_B.entitlements */,
+			);
+			path = "uBlock - EasyList B";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,6 +649,23 @@
 			productReference = 1904F08722F29B7F00C93826 /* uBlock filters - Unbreak.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1904F09922F36A4D00C93826 /* uBlock - EasyPrivacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1904F0A622F36A4D00C93826 /* Build configuration list for PBXNativeTarget "uBlock - EasyPrivacy" */;
+			buildPhases = (
+				1904F09622F36A4D00C93826 /* Sources */,
+				1904F09722F36A4D00C93826 /* Frameworks */,
+				1904F09822F36A4D00C93826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uBlock - EasyPrivacy";
+			productName = "uBlock - EasyPrivacy";
+			productReference = 1904F09A22F36A4D00C93826 /* uBlock - EasyPrivacy.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		19151FA822F2523E00A4388D /* uBlock filters */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19151FB522F2523E00A4388D /* Build configuration list for PBXNativeTarget "uBlock filters" */;
@@ -456,6 +701,12 @@
 				1904F06B22F29B0B00C93826 /* PBXTargetDependency */,
 				1904F07E22F29B3F00C93826 /* PBXTargetDependency */,
 				1904F09122F29B7F00C93826 /* PBXTargetDependency */,
+				1904F0A422F36A4D00C93826 /* PBXTargetDependency */,
+				19BF970F22F36ADD00E64B5A /* PBXTargetDependency */,
+				19BF972222F36B3C00E64B5A /* PBXTargetDependency */,
+				19BF973522F36C7900E64B5A /* PBXTargetDependency */,
+				19BF974822F3707900E64B5A /* PBXTargetDependency */,
+				19BF975B22F3732500E64B5A /* PBXTargetDependency */,
 			);
 			name = "uBlock Origin";
 			productName = "uBlock Origin";
@@ -477,6 +728,91 @@
 			name = "uBlock Origin Extension";
 			productName = "uBlock Origin Extension";
 			productReference = 1941A4C522E9551400AF66B7 /* uBlock Origin Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		19BF970422F36ADD00E64B5A /* uBlock - Malware Domain List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BF971322F36ADD00E64B5A /* Build configuration list for PBXNativeTarget "uBlock - Malware Domain List" */;
+			buildPhases = (
+				19BF970122F36ADD00E64B5A /* Sources */,
+				19BF970222F36ADD00E64B5A /* Frameworks */,
+				19BF970322F36ADD00E64B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uBlock - Malware Domain List";
+			productName = "uBlock - Malware Domain List";
+			productReference = 19BF970522F36ADD00E64B5A /* uBlock - Malware Domain List.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		19BF971722F36B3C00E64B5A /* uBlock - Malware domains */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BF972422F36B3C00E64B5A /* Build configuration list for PBXNativeTarget "uBlock - Malware domains" */;
+			buildPhases = (
+				19BF971422F36B3C00E64B5A /* Sources */,
+				19BF971522F36B3C00E64B5A /* Frameworks */,
+				19BF971622F36B3C00E64B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uBlock - Malware domains";
+			productName = "uBlock - Malware domains";
+			productReference = 19BF971822F36B3C00E64B5A /* uBlock - Malware domains.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		19BF972A22F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BF973722F36C7900E64B5A /* Build configuration list for PBXNativeTarget "uBlock - Peter Lowe’s Ad and tracking server list" */;
+			buildPhases = (
+				19BF972722F36C7900E64B5A /* Sources */,
+				19BF972822F36C7900E64B5A /* Frameworks */,
+				19BF972922F36C7900E64B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uBlock - Peter Lowe’s Ad and tracking server list";
+			productName = "uBlock - Peter Lowe’s Ad and tracking server list";
+			productReference = 19BF972B22F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		19BF973D22F3707900E64B5A /* uBlock - EasyList A */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BF974A22F3707900E64B5A /* Build configuration list for PBXNativeTarget "uBlock - EasyList A" */;
+			buildPhases = (
+				19BF973A22F3707900E64B5A /* Sources */,
+				19BF973B22F3707900E64B5A /* Frameworks */,
+				19BF973C22F3707900E64B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uBlock - EasyList A";
+			productName = "uBlock - EasyList A";
+			productReference = 19BF973E22F3707900E64B5A /* uBlock - EasyList A.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		19BF975022F3732500E64B5A /* uBlock - EasyList B */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BF975D22F3732500E64B5A /* Build configuration list for PBXNativeTarget "uBlock - EasyList B" */;
+			buildPhases = (
+				19BF974D22F3732500E64B5A /* Sources */,
+				19BF974E22F3732500E64B5A /* Frameworks */,
+				19BF974F22F3732500E64B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uBlock - EasyList B";
+			productName = "uBlock - EasyList B";
+			productReference = 19BF975122F3732500E64B5A /* uBlock - EasyList B.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -501,6 +837,9 @@
 					1904F08622F29B7F00C93826 = {
 						CreatedOnToolsVersion = 10.3;
 					};
+					1904F09922F36A4D00C93826 = {
+						CreatedOnToolsVersion = 10.3;
+					};
 					19151FA822F2523E00A4388D = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -509,6 +848,21 @@
 					};
 					1941A4C422E9551400AF66B7 = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					19BF970422F36ADD00E64B5A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					19BF971722F36B3C00E64B5A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					19BF972A22F36C7900E64B5A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					19BF973D22F3707900E64B5A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					19BF975022F3732500E64B5A = {
+						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
@@ -532,6 +886,12 @@
 				1904F06022F29B0B00C93826 /* uBlock filters - Privacy */,
 				1904F07322F29B3F00C93826 /* uBlock filters - Resource abuse */,
 				1904F08622F29B7F00C93826 /* uBlock filters - Unbreak */,
+				1904F09922F36A4D00C93826 /* uBlock - EasyPrivacy */,
+				19BF970422F36ADD00E64B5A /* uBlock - Malware Domain List */,
+				19BF971722F36B3C00E64B5A /* uBlock - Malware domains */,
+				19BF972A22F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list */,
+				19BF973D22F3707900E64B5A /* uBlock - EasyList A */,
+				19BF975022F3732500E64B5A /* uBlock - EasyList B */,
 			);
 		};
 /* End PBXProject section */
@@ -566,6 +926,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1904F08B22F29B7F00C93826 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1904F09822F36A4D00C93826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1904F09E22F36A4D00C93826 /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +972,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19BF970322F36ADD00E64B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF970922F36ADD00E64B5A /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF971622F36B3C00E64B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF971C22F36B3C00E64B5A /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF972922F36C7900E64B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF972F22F36C7900E64B5A /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF973C22F3707900E64B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF974222F3707900E64B5A /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF974F22F3732500E64B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF975522F3732500E64B5A /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -639,6 +1047,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1904F09622F36A4D00C93826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1904F0A022F36A4D00C93826 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19151FA522F2523E00A4388D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -665,6 +1081,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19BF970122F36ADD00E64B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF970B22F36ADD00E64B5A /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF971422F36B3C00E64B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF971E22F36B3C00E64B5A /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF972722F36C7900E64B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF973122F36C7900E64B5A /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF973A22F3707900E64B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF974422F3707900E64B5A /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BF974D22F3732500E64B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF975722F3732500E64B5A /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -688,6 +1144,11 @@
 			target = 1904F08622F29B7F00C93826 /* uBlock filters - Unbreak */;
 			targetProxy = 1904F09022F29B7F00C93826 /* PBXContainerItemProxy */;
 		};
+		1904F0A422F36A4D00C93826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1904F09922F36A4D00C93826 /* uBlock - EasyPrivacy */;
+			targetProxy = 1904F0A322F36A4D00C93826 /* PBXContainerItemProxy */;
+		};
 		19151FB322F2523E00A4388D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 19151FA822F2523E00A4388D /* uBlock filters */;
@@ -697,6 +1158,31 @@
 			isa = PBXTargetDependency;
 			target = 1941A4C422E9551400AF66B7 /* uBlock Origin Extension */;
 			targetProxy = 1941A4C722E9551400AF66B7 /* PBXContainerItemProxy */;
+		};
+		19BF970F22F36ADD00E64B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19BF970422F36ADD00E64B5A /* uBlock - Malware Domain List */;
+			targetProxy = 19BF970E22F36ADD00E64B5A /* PBXContainerItemProxy */;
+		};
+		19BF972222F36B3C00E64B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19BF971722F36B3C00E64B5A /* uBlock - Malware domains */;
+			targetProxy = 19BF972122F36B3C00E64B5A /* PBXContainerItemProxy */;
+		};
+		19BF973522F36C7900E64B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19BF972A22F36C7900E64B5A /* uBlock - Peter Lowe’s Ad and tracking server list */;
+			targetProxy = 19BF973422F36C7900E64B5A /* PBXContainerItemProxy */;
+		};
+		19BF974822F3707900E64B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19BF973D22F3707900E64B5A /* uBlock - EasyList A */;
+			targetProxy = 19BF974722F3707900E64B5A /* PBXContainerItemProxy */;
+		};
+		19BF975B22F3732500E64B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19BF975022F3732500E64B5A /* uBlock - EasyList B */;
+			targetProxy = 19BF975A22F3732500E64B5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -866,6 +1352,44 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock-filters---Unbreak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1904F0A722F36A4D00C93826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - EasyPrivacy/uBlock___EasyPrivacy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - EasyPrivacy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---EasyPrivacy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1904F0A822F36A4D00C93826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - EasyPrivacy/uBlock___EasyPrivacy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - EasyPrivacy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---EasyPrivacy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1103,6 +1627,196 @@
 			};
 			name = Release;
 		};
+		19BF971122F36ADD00E64B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - Malware Domain List/uBlock___Malware_Domain_List.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - Malware Domain List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---Malware-Domain-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19BF971222F36ADD00E64B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - Malware Domain List/uBlock___Malware_Domain_List.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - Malware Domain List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---Malware-Domain-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		19BF972522F36B3C00E64B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - Malware domains/uBlock___Malware_domains.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - Malware domains/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---Malware-domains";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19BF972622F36B3C00E64B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - Malware domains/uBlock___Malware_domains.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - Malware domains/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---Malware-domains";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		19BF973822F36C7900E64B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - Peter Lowe’s Ad and tracking server list/uBlock___Peter_Lowe_s_Ad_and_tracking_server_list.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - Peter Lowe’s Ad and tracking server list/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---Peter-Lowe-s-Ad-and-tracking-server-list";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19BF973922F36C7900E64B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - Peter Lowe’s Ad and tracking server list/uBlock___Peter_Lowe_s_Ad_and_tracking_server_list.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - Peter Lowe’s Ad and tracking server list/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---Peter-Lowe-s-Ad-and-tracking-server-list";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		19BF974B22F3707900E64B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - EasyList A/uBlock___EasyList_A.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - EasyList A/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---EasyList-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19BF974C22F3707900E64B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - EasyList A/uBlock___EasyList_A.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - EasyList A/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---EasyList-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		19BF975E22F3732500E64B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - EasyList B/uBlock___EasyList_B.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - EasyList B/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---EasyList-B";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19BF975F22F3732500E64B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "uBlock - EasyList B/uBlock___EasyList_B.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE7T2KK6SX;
+				INFOPLIST_FILE = "uBlock - EasyList B/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattieapps.uBlock-Origin.uBlock---EasyList-B";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1142,6 +1856,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1904F0A622F36A4D00C93826 /* Build configuration list for PBXNativeTarget "uBlock - EasyPrivacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1904F0A722F36A4D00C93826 /* Debug */,
+				1904F0A822F36A4D00C93826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		19151FB522F2523E00A4388D /* Build configuration list for PBXNativeTarget "uBlock filters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1174,6 +1897,51 @@
 			buildConfigurations = (
 				1941A4E122E9551400AF66B7 /* Debug */,
 				1941A4E222E9551400AF66B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19BF971322F36ADD00E64B5A /* Build configuration list for PBXNativeTarget "uBlock - Malware Domain List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BF971122F36ADD00E64B5A /* Debug */,
+				19BF971222F36ADD00E64B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19BF972422F36B3C00E64B5A /* Build configuration list for PBXNativeTarget "uBlock - Malware domains" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BF972522F36B3C00E64B5A /* Debug */,
+				19BF972622F36B3C00E64B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19BF973722F36C7900E64B5A /* Build configuration list for PBXNativeTarget "uBlock - Peter Lowe’s Ad and tracking server list" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BF973822F36C7900E64B5A /* Debug */,
+				19BF973922F36C7900E64B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19BF974A22F3707900E64B5A /* Build configuration list for PBXNativeTarget "uBlock - EasyList A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BF974B22F3707900E64B5A /* Debug */,
+				19BF974C22F3707900E64B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19BF975D22F3732500E64B5A /* Build configuration list for PBXNativeTarget "uBlock - EasyList B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BF975E22F3732500E64B5A /* Debug */,
+				19BF975F22F3732500E64B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

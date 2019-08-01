@@ -34,9 +34,8 @@
                         <action selector="settings:" target="-2" id="tRS-80-a49"/>
                     </connections>
                 </button>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="72T-Ti-Bu8">
-                    <rect key="frame" x="20" y="239" width="302" height="17"/>
-                    <autoresizingMask key="autoresizingMask"/>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72T-Ti-Bu8">
+                    <rect key="frame" x="20" y="231" width="288" height="17"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Filters enabled - 0/4" id="W6t-bx-1I8">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -58,12 +57,15 @@
                 <constraint firstItem="4Iy-aV-wGF" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="0NB-2X-Qpc"/>
                 <constraint firstAttribute="bottom" secondItem="bZd-i7-cKl" secondAttribute="bottom" constant="8" id="3n4-MT-Ce2"/>
                 <constraint firstAttribute="trailing" secondItem="1Dy-40-wpW" secondAttribute="trailing" constant="20" id="Fx8-zn-mu6"/>
+                <constraint firstItem="72T-Ti-Bu8" firstAttribute="top" secondItem="4Iy-aV-wGF" secondAttribute="bottom" constant="16" id="G0p-gf-5F1"/>
                 <constraint firstItem="bZd-i7-cKl" firstAttribute="top" secondItem="1Dy-40-wpW" secondAttribute="bottom" constant="12" id="LXS-1l-aiq"/>
                 <constraint firstAttribute="trailing" secondItem="bZd-i7-cKl" secondAttribute="trailing" constant="20" symbolic="YES" id="aG9-hN-TyS"/>
                 <constraint firstItem="1Dy-40-wpW" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="ba1-Bu-JKa"/>
+                <constraint firstItem="72T-Ti-Bu8" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="22" id="dRF-wL-0o6"/>
                 <constraint firstAttribute="trailing" secondItem="4Iy-aV-wGF" secondAttribute="trailing" constant="8" id="eAd-tA-Of0"/>
                 <constraint firstItem="4Iy-aV-wGF" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="8" id="meQ-ww-s0E"/>
                 <constraint firstItem="bZd-i7-cKl" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" symbolic="YES" id="nRe-zD-rDt"/>
+                <constraint firstAttribute="trailing" secondItem="72T-Ti-Bu8" secondAttribute="trailing" constant="22" id="qU1-1t-I6S"/>
             </constraints>
             <point key="canvasLocation" x="138" y="239.5"/>
         </customView>
