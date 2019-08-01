@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>uBlock - User filters.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>uBlock Origin Extension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

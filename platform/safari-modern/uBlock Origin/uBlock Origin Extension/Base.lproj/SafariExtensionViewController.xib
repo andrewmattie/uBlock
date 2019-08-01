@@ -36,7 +36,7 @@
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72T-Ti-Bu8">
                     <rect key="frame" x="20" y="231" width="288" height="17"/>
-                    <textFieldCell key="cell" lineBreakMode="clipping" title="Filters enabled - 0/4" id="W6t-bx-1I8">
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Filters enabled - 0/11" id="W6t-bx-1I8">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
